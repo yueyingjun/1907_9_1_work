@@ -1,0 +1,1347 @@
+.daohang{
+	width:100%;height:110px;
+	position:fixed;
+	top:0;
+	background-color:#fff;
+}
+.head-top{
+	width:1200px;height:110px;
+	
+	margin:auto;
+}
+.head-top-left img{
+	margin-top:20px;
+	margin-bottom:10px;
+	float:left;
+}
+.head-top-right-top{
+	float:right;
+	width:670px;height:55px;
+	margin-top:20px;
+}
+.head-top-right-top img{
+	float:left;
+	padding-left:56.5px;
+}
+.head-top-right-bottom{
+	float:right;
+	width:706px;height:35px;
+	margin-right:20px;
+}
+.head-top-right-bottom a{
+	padding-left:30px;
+	font-size: 16px;
+    color: #2d2d2d;
+	font-weight:bold;
+}
+.lunbo{
+	width:100%;height:500px;
+	margin-top:115px;
+}
+.lunbo-image{
+	width:2000px;height:500px;
+	margin:auto;
+}
+.one{
+	width:1200px;height:128px;
+	border-bottom:0.5px solid gray;
+	margin:auto;
+}
+.one>div{
+	float:left;
+}
+.one-one{
+	padding-top:38px;
+}
+.one-one img{
+	float:left;
+}
+.one-one span{
+	float:left;
+	vertical-align:top;
+	padding-left:15px;
+	font-weight:bold;
+	font-size:20px;
+}
+.one-one div{
+	padding-top:29px;
+	padding-left:63px;
+}
+.one-two{
+	padding-left:70px;
+}
+.one-two img{
+	padding-top:46px;
+	float:left;
+}
+.one-two span{
+	float:left;
+	padding-top:38px;
+	padding-left:15px;
+	font-weight:bold;
+	font-size:20px;
+}
+.one-two div{
+	padding-top:67px;
+	padding-left:63px;
+}
+.one-three{
+	padding-left:70px;
+}
+.one-three img{
+	padding-top:46px;
+	float:left;
+}
+.one-three span{
+	float:left;
+	padding-top:38px;
+	padding-left:15px;
+	font-weight:bold;
+	font-size:20px;
+}
+.one-three div{
+	padding-top:67px;
+	padding-left:63px;
+}
+.one-four{
+	padding-left:70px;
+}
+.one-four img{
+	float:left;
+	padding-top:40px;
+}
+.one-four span{
+	float:left;
+	padding-top:38px;
+	padding-left:15px;
+	font-weight:bold;
+	font-size:20px;
+}
+.one-four div{
+	padding-top:67px;
+	padding-left:53px;
+}
+.one-five{
+	padding-left:70px;
+}
+.one-five img{
+	float:left;
+	padding-top:40px;
+}
+.one-five span{
+	float:left;
+	padding-top:38px;
+	padding-left:15px;
+	font-weight:bold;
+	font-size:20px;
+}
+.one-five div{
+	padding-top:67px;
+	padding-left:58px;
+}
+.two{
+	width:1200px;height:55px;
+	margin-top:100px;
+	margin:auto;
+	line-height:55px;
+	text-align:center;
+	font-size: 36px;
+    color: #2691fd;
+	margin-top:50px;
+	
+}
+.three{
+	color:#2691fd;
+	text-align:center;
+}
+.four{
+	width:1200px;height:18px;
+	margin:auto;
+	text-align:center;
+	font-size: 16px;
+    color: #222
+}
+.five{
+	width:1200px;height:608px;
+	margin:auto;
+}
+.five-one{
+	float:left;
+	width:750px;height:525px;
+	border:1px solid gray;
+	margin-top:41.5px;
+}
+.five-one-one{
+	width:688px;height:41px;
+	border-bottom:1px solid #2691fd;
+	margin-left:31px;margin-top:20px;
+}
+.five-one-one img{
+	float:left;
+}
+.five-one-one-1{
+	float:left;
+	color: #333;
+    font-size: 24px;
+    margin-left: 12px;
+	vertical-align:center;
+}
+.five-one-one-2{
+	float:left;
+	font-size: 14px;
+    color: #222;
+	line-height:41px;
+	margin-left:100px;
+}
+.five-one-one-3{
+	float:left;
+	font-size: 14px;
+    color: #222;
+	line-height:41px;
+	margin-left:25px;
+}
+.five-one-one-4{
+	float:left;
+	font-size: 14px;
+    color: #222;
+	line-height:41px;
+	margin-left:25px;
+}
+.five-one-one-5{
+	float:left;
+	color: #ffa800;
+    font-size: 14px;
+	line-height:41px;
+	margin-left:181px;
+	text-decoration:none;
+}   
+.five-one-two{
+	width:688px;height:177px;
+	margin-left:31px;
+	margin-top:1px;
+}   
+.five-one-two img{
+	width:100%;height:100%;
+}   
+.five-one-three{
+	width:688px;height:110px;
+	margin-left:31px;
+	margin-top:20px;
+}
+.five-one-three img{
+	float:left;
+	width:132px;height:99px;
+	margin-top:5.5px;
+} 
+.five-one-three span{
+	float:left;
+	color: #222;
+    font-size: 18px;
+	margin-left:20px;
+	margin-top:15px;
+} 
+.five-one-three p{
+	float:left;
+	color: #666;
+    font-size: 14px;
+	margin-left:152px;
+	margin-top:-50px;
+} 
+
+.five-one-four{
+	width:688px;height:10px;
+	color:gray;
+	text-align:center;
+	padding-left:20px;
+	padding-top:10px;
+}
+
+.five-one-five{
+	width:688px;height:110px;
+	margin-left:31px;
+	margin-top:20px;
+}
+.five-one-five img{
+	float:left;
+	width:132px;height:99px;
+	margin-top:5.5px;
+} 
+.five-one-five span{
+	float:left;
+	color: #222;
+    font-size: 18px;
+	margin-left:20px;
+	margin-top:15px;
+} 
+.five-one-five p{
+	float:left;
+	color: #666;
+    font-size: 14px;
+	margin-left:152px;
+	margin-top:-50px;
+} 
+.five-two{
+	float:left;
+	width:400px;height:525px;
+	border:1px solid gray;
+	margin-left:20px;
+	margin-top:41.5px;
+}
+.five-two-one{
+	width:350px;height:41px;
+	border-bottom:1px solid #2691fd;
+	margin-left:31px;margin-top:20px;
+}
+.five-two-one img{
+	float:left;
+}
+.five-two-one span{
+	float:left;
+	color: #333;
+    font-size: 24px;
+    margin-left: 12px;
+	vertical-align:center;
+}
+.five-two-one a{
+	float:left;
+	color: #ffa800;
+    font-size: 14px;
+	margin-top:-20px;
+	margin-left:308px;
+	text-decoration:none;
+}  
+.five-two-two{
+	width:368px;height:30px;
+	margin:auto;
+	margin-top:20px;
+	line-height:30px;
+}
+.five-two-three{
+	width:368px;height:60px;
+	margin:auto;
+	line-height:30px;
+	color: #666;
+    font-size: 14px;
+	padding-top:10px;
+	border-bottom:1px dotted gray;
+}
+.five-two-four{
+	width:368px;height:30px;
+	margin:auto;
+	margin-top:20px;
+}
+.five-two-five{
+	width:368px;height:60px;
+	margin:auto;
+	line-height:30px;
+	color: #666;
+    font-size: 14px;
+	padding-top:10px;
+	border-bottom:1px dotted gray;
+}
+.five-two-six{
+	width:368px;height:30px;
+	margin:auto;
+	margin-top:20px;
+}
+.five-two-seven{
+	width:368px;height:60px;
+	margin:auto;
+	line-height:30px;
+	color: #666;
+    font-size: 14px;
+	padding-top:10px;
+	border-bottom:1px dotted gray;
+}
+.five-two-eight{
+	width:368px;height:30px;
+	margin:auto;
+	margin-top:20px;
+}
+.five-two-nine{
+	width:368px;height:60px;
+	margin:auto;
+	line-height:20px;
+	color:#666;
+    font-size:14px;
+}
+.six{
+	width:100%;height:55px;
+	font-size:36px;
+    color:#2691fd;
+    line-height:55px;
+	text-align:center;
+}
+.seven{
+	color:#2691fd;
+	text-align:center;
+}
+.eight{
+	width:1200px;height:18px;
+	margin:auto;
+	text-align:center;
+	font-size: 16px;
+    color: #222
+}
+.nine{
+	width:1200px;height:65px;
+	margin:auto;
+	margin-top:40px;
+	padding-top:10px;
+}
+.nine-one{
+	font-size: 24px;
+    color: #2d2d2d;
+}
+.nine a{
+	font-size: 18px;
+	color:#666666;
+	margin-left:40px;
+	text-decoration:none;
+}
+.nine-a-one:hover{
+	color: #6ccae6;
+	border-top:2px solid #6ccae6;
+}
+.nine-a-two:hover{
+	color: rgb(161, 21, 60);
+	border-top:2px solid rgb(161, 21, 60);
+}
+.nine-a-three:hover{
+	color: rgb(0, 146, 239);
+	border-top:2px solid rgb(0, 146, 239);
+}
+.ten{
+	width:1200px;height:370px;
+	border-bottom:1px solid gray;
+	margin:auto;
+}
+.ten img{
+	float:left;
+}
+.ten-middle-top>div{
+	float:left;
+	width:201px;height:153px;
+	margin-left:2px;
+	background-color:#fafafa;
+}
+.ten-middle-top>div>img{
+	float:left;
+	margin-top:28px;
+	margin-left:57.5px;
+	
+}
+.ten-right{
+	float:left;
+	width:200px;height:310px;
+	margin-left:2px;
+	background-color:#fafafa;
+}
+.ten-right img{
+	margin-left:27px;
+	margin-top:47.5px;
+}
+.ten-middle-bottom{
+	float:right;
+	margin-right:219px;
+	margin-top:-155px;
+}
+.ten-middle-bottom>div{
+	float:right;
+	width:201px;height:153px;
+	margin-right:2px;
+	background-color:#fafafa;
+}
+.ten-middle-bottom>div>img{
+	float:right;
+	margin-top:28px;
+	margin-right:57.5px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.eleven{
+	width:1200px;height:65px;
+	margin:auto;
+	margin-top:40px;
+	padding-top:10px;
+}
+.eleven-one{
+	font-size: 24px;
+    color: #2d2d2d;
+}
+.eleven a{
+	font-size: 18px;
+	color:#666666;
+	margin-left:40px;
+	text-decoration:none;
+}
+.eleven-a-one:hover{
+	color: #6ccae6;
+	border-top:2px solid #6ccae6;
+}
+.eleven-a-two:hover{
+	color: rgb(161, 21, 60);
+	border-top:2px solid rgb(161, 21, 60);
+}
+.eleven-a-three:hover{
+	color: rgb(0, 146, 239);
+	border-top:2px solid rgb(0, 146, 239);
+}
+.twelve{
+	width:1200px;height:370px;
+	border-bottom:1px solid gray;
+	margin:auto;
+}
+.twelve img{
+	float:left;
+}
+.twelve-middle-top>div{
+	float:left;
+	width:201px;height:153px;
+	margin-left:2px;
+	background-color:#fafafa;
+}
+.twelve-middle-top>div>img{
+	float:left;
+	margin-top:28px;
+	margin-left:57.5px;
+	
+}
+.twelve-right{
+	float:left;
+	width:200px;height:310px;
+	margin-left:2px;
+	background-color:#fafafa;
+}
+.twelve-right img{
+	margin-left:27px;
+	margin-top:47.5px;
+}
+.twelve-middle-bottom{
+	float:right;
+	margin-right:219px;
+	margin-top:-155px;
+}
+.twelve-middle-bottom>div{
+	float:right;
+	width:201px;height:153px;
+	margin-right:2px;
+	background-color:#fafafa;
+}
+.twelve-middle-bottom>div>img{
+	float:right;
+	margin-top:28px;
+	margin-right:57.5px;
+	
+}
+
+.thirteen{
+	width:1200px;height:65px;
+	margin:auto;
+	margin-top:40px;
+	padding-top:10px;
+}
+.thirteen-one{
+	font-size: 24px;
+    color: #2d2d2d;
+}
+.thirteen a{
+	font-size: 18px;
+	color:#666666;
+	margin-left:40px;
+	text-decoration:none;
+}
+.thirteen-a-one:hover{
+	color: #6ccae6;
+	border-top:2px solid #6ccae6;
+}
+.thirteen-a-two:hover{
+	color: rgb(161, 21, 60);
+	border-top:2px solid rgb(161, 21, 60);
+}
+.thirteen-a-three:hover{
+	color: rgb(0, 146, 239);
+	border-top:2px solid rgb(0, 146, 239);
+}
+.fourteen{
+	width:1200px;height:370px;
+	margin:auto;
+}
+.fourteen img{
+	float:left;
+}
+.fourteen-middle-top>div{
+	float:left;
+	width:201px;height:153px;
+	margin-left:2px;
+	background-color:#fafafa;
+}
+.fourteen-middle-top>div>img{
+	float:left;
+	margin-top:28px;
+	margin-left:57.5px;
+	
+}
+.fourteen-right{
+	float:left;
+	width:200px;height:310px;
+	margin-left:2px;
+	background-color:#fafafa;
+}
+.fourteen-right img{
+	margin-left:27px;
+	margin-top:47.5px;
+}
+.fourteen-middle-bottom{
+	float:right;
+	margin-right:219px;
+	margin-top:-155px;
+}
+.fourteen-middle-bottom>div{
+	float:right;
+	width:201px;height:153px;
+	margin-right:2px;
+	background-color:#fafafa;
+}
+.fourteen-middle-bottom>div>img{
+	float:right;
+	margin-top:28px;
+	margin-right:57.5px;
+	
+}
+
+
+
+.top{
+	width:100%;height:60px;
+	background-image:url("http://www.sxuek.com/statics/images/uek/images/szh_images/lyn-jianban.jpg");
+
+}
+.topmid{
+	width:1190px;height:60px;
+	background:#fafafa;
+	border-left:5px solid #2691FD;
+	border-right:5px solid #2691FD;
+	margin:auto;
+}
+.top-left{
+	float:left;
+}
+.top-left-top{
+	width:100%;height:35px;
+    font-size:34px;
+    line-height:35px;
+    font-weight:400;
+	margin-left:10px;
+}
+.top-left-bottom{
+	width:100%;height:35px;
+    font-size:20px;
+    line-height:35px;
+	margin-left:10px;
+}
+.top-left-bottom span{
+	font-weight:600;
+}
+.top-left-bottom .v{
+	font-weight:300;
+	color:#2691FD;
+}
+.top-right{
+	float:right;
+	margin-right:10px;
+	margin-top:37px;
+}
+a{
+	text-decoration:none;
+	padding-right:5px;
+}
+a:hover{
+	text-decoration:overline;
+	color:#2691FD;
+}
+
+.bottom{
+	width:1100px;height:500px;
+	margin:auto;
+	margin-top:100px;
+}
+.bottom ul{
+	padding:0;margin:0;
+	list-style:none;
+}
+.bottom ul li{
+	float:left;
+	width:254px;height:362px;
+}
+.bottom #one{
+	width:254px;height:254px;
+	background-color:#d8d8d8;
+
+	background-image:url(http://www.sxuek.com/uploadfile/2017/0804/20170804110256515.jpg);
+	background-size:100px 100px;
+	background-position:77px 77px;
+	background-repeat:no-repeat;
+}
+.bottom #two{
+	width:254px;height:254px;
+	background-color:#d8d8d8;
+	background-image:url(http://www.sxuek.com/uploadfile/2017/0804/20170804031847785.jpg);
+	background-size:100px 100px;
+	background-position:77px 77px;
+	background-repeat:no-repeat;
+	margin-left:30px;
+}
+.bottom #two-two p{
+	margin-left:30px;
+}
+.bottom #three{
+	width:254px;height:254px;
+	background-color:#d8d8d8;
+	background-image:url(http://www.sxuek.com/uploadfile/2017/0804/20170804032205407.jpg);
+	background-size:100px 100px;
+	background-position:77px 77px;
+	background-repeat:no-repeat;
+	margin-left:60px;
+}
+.bottom #three-three p{
+	margin-left:60px;
+}
+
+.bottom #four{
+	width:254px;height:254px;
+	background-color:#d8d8d8;
+	background-image:url(http://www.sxuek.com/uploadfile/2017/0804/20170804032715828.jpg);
+	background-size:100px 100px;
+	background-position:77px 77px;
+	background-repeat:no-repeat;
+	margin-left:80px;
+}
+.bottom #four-four p{
+	margin-left:80px;
+}
+
+
+.top1{
+	width:100%;height:60px;
+	background-image:url("http://www.sxuek.com/statics/images/uek/images/szh_images/lyn-jianban.jpg");
+	margin-top:50px;
+}
+.topmid1{
+	width:1190px;height:60px;
+	background:#fafafa;
+	border-left:5px solid #2691FD;
+	border-right:5px solid #2691FD;
+	margin:auto;
+}
+.top-left1{
+	float:left;
+}
+.top-left-top1{
+	width:100%;height:35px;
+    font-size:34px;
+    line-height:35px;
+    font-weight:400;
+	margin-left:10px;
+}
+.top-left-bottom1{
+	width:100%;height:35px;
+    font-size:20px;
+    line-height:35px;
+	margin-left:10px;
+}
+.top-left-bottom1 span{
+	font-weight:600;
+}
+.top-left-bottom1 .v1{
+	font-weight:300;
+	color:#2691FD;
+}
+.top-right1{
+	float:right;
+	margin-right:10px;
+	margin-top:37px;
+}
+a{
+	text-decoration:none;
+	padding-right:5px;
+}
+a:hover{
+	text-decoration:overline;
+	color:#2691FD;
+}
+
+.bottom1{
+	width:1100px;height:362px;
+	margin:auto;
+	margin-top:100px;
+}
+.bottom1 ul{
+	padding:0;margin:0;
+	list-style:none;
+}
+.bottom1 li{
+	float:left;
+	margin-left:20px;
+	width:245px;height:360px;
+	border:1px solid gray;
+}
+.bottom1 #one-one{
+	width:104px;height:10px;
+	margin:auto;
+	border-top:6px solid #15c9cb;
+}
+.bottom1 #one-two{
+	width:100%;height:170px;
+	background-image:url(http://www.sxuek.com/uploadfile/2018/0719/20180719030859551.jpg);
+	background-size:150px 100px;
+	background-position:50px 30px;
+	background-repeat:no-repeat;
+}
+.bottom1 #one-three{
+	width:100%;height:20px;
+	font-size: 14px;
+	text-align:center;
+}
+.bottom1 #one-four{
+	text-align:center;
+}
+.bottom1 #one-five{
+	width:100%;height:40px;
+	padding-top: 4px;
+    line-height: 36px;
+    color: #01b5ff;
+	font-size:20px;
+	text-align:center;
+}
+.bottom1 #one-six{
+	width:100%;height:45px;
+	margin-top:2px;
+	text-align:center;
+	
+}
+.bottom1 #one-seven{
+	width:185px;height:45px;
+	background-color:#01b5ff;
+	color: #fff;
+    font-size: 20px;
+	line-height:45px;
+	padding-left:60px;
+}
+
+.bottom1 #two-one{
+	width:104px;height:10px;
+	margin:auto;
+	border-top:6px solid #fabd14;
+}
+.bottom1 #two-two{
+	width:100%;height:170px;
+	background-image:url(http://www.sxuek.com/uploadfile/2018/0719/20180719024808537.jpg);
+	background-size:150px 100px;
+	background-position:50px 30px;
+	background-repeat:no-repeat;
+}
+.bottom1 #two-three{
+	width:100%;height:20px;
+	font-size: 14px;
+	text-align:center;
+}
+.bottom1 #two-four{
+	text-align:center;
+}
+.bottom1 #two-five{
+	width:100%;height:40px;
+	padding-top: 4px;
+    line-height: 36px;
+    color: #01b5ff;
+	font-size:20px;
+	text-align:center;
+}
+.bottom1 #two-six{
+	width:100%;height:45px;
+	margin-top:2px;
+	text-align:center;
+	
+}
+.bottom1 #two-seven{
+	width:185px;height:45px;
+	background-color:#fabd14;
+	color: #fff;
+    font-size: 20px;
+	line-height:45px;
+	padding-left:60px;
+}
+
+.bottom1 #three-one{
+	width:104px;height:10px;
+	margin:auto;
+	border-top:6px solid #917cf0;
+}
+.bottom1 #three-two{
+	width:100%;height:170px;
+	background-image:url(http://www.sxuek.com/uploadfile/2018/0719/20180719023837399.jpg);
+	background-size:150px 100px;
+	background-position:50px 30px;
+	background-repeat:no-repeat;
+}
+.bottom1 #three-three{
+	width:100%;height:20px;
+	font-size: 14px;
+	text-align:center;
+}
+.bottom1 #three-four{
+	text-align:center;
+}
+.bottom1 #three-five{
+	width:100%;height:40px;
+	padding-top: 4px;
+    line-height: 36px;
+    color: #01b5ff;
+	font-size:20px;
+	text-align:center;
+}
+.bottom1 #three-six{
+	width:100%;height:45px;
+	margin-top:2px;
+	text-align:center;
+	
+}
+.bottom1 #three-seven{
+	width:185px;height:45px;
+	background-color:#917cf0;
+	color: #fff;
+    font-size: 20px;
+	line-height:45px;
+	padding-left:60px;
+}
+
+.bottom1 #four-one{
+	width:104px;height:10px;
+	margin:auto;
+	border-top:6px solid #f07277;
+}
+.bottom1 #four-two{
+	width:100%;height:170px;
+	background-image:url(http://www.sxuek.com/uploadfile/2018/0719/20180719015733677.jpg);
+	background-size:150px 100px;
+	background-position:50px 30px;
+	background-repeat:no-repeat;
+}
+.bottom1 #four-three{
+	width:100%;height:20px;
+	font-size: 14px;
+	text-align:center;
+}
+.bottom1 #four-four{
+	text-align:center;
+}
+.bottom1 #four-five{
+	width:100%;height:40px;
+	padding-top: 4px;
+    line-height: 36px;
+    color: #01b5ff;
+	font-size:20px;
+	text-align:center;
+}
+.bottom1 #four-six{
+	width:100%;height:45px;
+	margin-top:2px;
+	text-align:center;
+	
+}
+.bottom1 #four-seven{
+	width:185px;height:45px;
+	background-color:#f07277;
+	color: #fff;
+    font-size: 20px;
+	line-height:45px;
+	padding-left:60px;
+}
+
+
+
+
+.top2{
+	width:100%;height:60px;
+	background-image:url("http://www.sxuek.com/statics/images/uek/images/szh_images/lyn-jianban.jpg");
+	margin-top:50px;
+}
+.topmid2{
+	width:1190px;height:60px;
+	background:#fafafa;
+	border-left:5px solid #2691FD;
+	border-right:5px solid #2691FD;
+	margin:auto;
+}
+.top-left2{
+	float:left;
+}
+.top-left-top2{
+	width:100%;height:35px;
+    font-size:34px;
+    line-height:35px;
+    font-weight:400;
+	margin-left:10px;
+}
+.top-left-bottom2{
+	width:100%;height:35px;
+    font-size:20px;
+    line-height:35px;
+	margin-left:10px;
+}
+.top-left-bottom2 span{
+	font-weight:600;
+}
+.top-left-bottom2 .v2{
+	font-weight:300;
+	color:#2691FD;
+}
+.top-right2{
+	float:right;
+	margin-right:10px;
+	margin-top:37px;
+}
+a{
+	text-decoration:none;
+	padding-right:5px;
+}
+a:hover{
+	text-decoration:overline;
+	color:#2691FD;
+}
+.bottom2{
+	width:1000px;height:300px;
+	margin:auto;
+	margin-top:100px;
+	
+}
+.bottom2>div{
+	float:left;
+	width:240px;height:100%;
+	margin-left:5px;
+	overflow:hidden;
+}
+.chu2{
+	width:20px;height:20px;
+	background:#999;
+	font-size:14px;
+	color:#fff;
+	text-align:center;
+	float:left;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+.s12{
+	float:left;
+	font-size:14px;
+	margin-top:25px;margin-left:5px;
+}
+.s22{
+	float:left;
+	font-size:12.8px;
+	color:#666;
+	margin-top:30px;margin-left:-15px;
+}
+
+
+
+.top3{
+	width:100%;height:60px;
+	background-image:url("http://www.sxuek.com/statics/images/uek/images/szh_images/lyn-jianban.jpg");
+	margin-top:50px;
+}
+.topmid3{
+	width:1190px;height:60px;
+	background:#fafafa;
+	border-left:5px solid #2691FD;
+	border-right:5px solid #2691FD;
+	margin:auto;
+}
+.top-left3{
+	float:left;
+}
+.top-left-top3{
+	width:100%;height:35px;
+    font-size:34px;
+    line-height:35px;
+    font-weight:400;
+	margin-left:10px;
+}
+.top-left-bottom3{
+	width:100%;height:35px;
+    font-size:20px;
+    line-height:35px;
+	margin-left:10px;
+}
+.top-left-bottom3 span{
+	font-weight:600;
+}
+.top-left-bottom3 .v3{
+	font-weight:300;
+	color:#2691FD;
+}
+.top-right3{
+	float:right;
+	margin-right:10px;
+	margin-top:37px;
+}
+a{
+	text-decoration:none;
+	padding-right:5px;
+}
+a:hover{
+	text-decoration:overline;
+	color:#2691FD;
+}
+
+.bottom3{
+	width:1200px;height:362px;
+	margin:auto;
+	margin-top:50px;
+}
+.bottom3 ul{
+	padding:0;margin:0;
+	list-style:none;
+}
+.bottom3 li{
+	float:left;
+	width:290px;height:280px;
+	margin-left:10px;
+}
+.bottom3 #one{
+	width:290px;height:220px;
+}
+.bottom3 #one img{
+	width:100%;height:100%;
+}
+.bottom3 #two{
+	width:290px;height:60px;
+	text-align:center;
+	margin-top:20px;
+}
+
+
+
+
+.top4{
+	width:100%;height:60px;
+	background-image:url("http://www.sxuek.com/statics/images/uek/images/szh_images/lyn-jianban.jpg");
+	margin-top:50px;
+}
+.topmid4{
+	width:1190px;height:60px;
+	background:#fafafa;
+	border-left:5px solid #2691FD;
+	border-right:5px solid #2691FD;
+	margin:auto;
+}
+.top-left4{
+	float:left;
+}
+.top-left-top4{
+	width:100%;height:35px;
+    font-size:34px;
+    line-height:35px;
+    font-weight:400;
+	margin-left:10px;
+}
+.top-left-bottom4{
+	width:100%;height:35px;
+    font-size:20px;
+    line-height:35px;
+	margin-left:10px;
+}
+.top-left-bottom4 span{
+	font-weight:600;
+}
+.top-left-bottom4 .v4{
+	font-weight:300;
+	color:#2691FD;
+}
+.top-right4{
+	float:right;
+	margin-right:10px;
+	margin-top:37px;
+}
+a{
+	text-decoration:none;
+	padding-right:5px;
+}
+a:hover{
+	text-decoration:overline;
+	color:#2691FD;
+}
+.bottom4{
+	width:922px;height:362px;
+	margin:auto;
+	margin-top:50px;
+}
+.bottom4 ul{
+	padding:0;margin:0;
+	list-style:none;
+}
+.bottom4 li{
+	float:left;
+	width:147px;height:66px;
+	margin-left:10px;
+}
+.bottom4 #one{
+	width:147px;height:66px;
+}
+.bottom4 #one img{
+	width:100%;height:100%;
+}
+
+.last-a{
+	color:black;
+	
+}
+.last-a:hover{
+	color:black;
+	text-decoration:none;
+}
+
+.buttom5{
+	width:1000px;height:40px;
+	margin:auto;
+}
+.bottom6{
+	width:100%;height:400px;
+	background-color:#2691FD;
+}
+.bottom6-middle{
+	width:1300px;height:300px;
+	background-color:#2691FD;
+	padding-top:50px;
+	margin:auto;
+	
+}
+.bottom6-div-left{
+	float:left;
+	width:330px;height:300px;
+	margin-top:50px;
+	padding-right:20px;
+	border-right:1px solid gray;
+}
+.bottom6-div-left #one{
+	font-weight:bold;
+	font-size:20px;
+	color:#fff;
+	
+}
+.bottom6-div-left #two{
+	float:left;
+	margin-left:110px;
+	margin-top:-25px;
+	color:#fff;
+	font-size:20px;
+}
+.bottom6-div-left #three{
+	font-size:25px;
+	color:#fff;
+	margin-top:20px;
+}
+.bottom6-div-left #four{
+	color:#fff;
+	margin-top:30px;
+}
+.bottom6-div-left #five{
+	color:#fff;
+}
+.bottom6-div-left #six{
+	color:#fff;
+	margin-top:30px;
+}
+.bottom6-div-left #seven{
+	color:#fff;
+}
+.bottom6-div-left #eight{
+	color:#fff;
+	margin-top:30px;
+}
+
+.bottom6-div-middle{
+	float:left;
+	width:500px;height:300px;
+	border-right:1px solid gray;
+	margin-left:10px;
+	margin-top:50px;
+	padding-right:20px;
+	padding-left:20px;
+}
+.bottom6-div-middle #one{
+	font-size:18px;
+	color:#fff;
+
+}
+.bottom6-div-middle #two{
+	font-size:16px;
+	color:#fff;
+	margin-top:30px;
+}
+.bottom6-div-middle #three{
+	font-size:16px;
+	color:#fff;
+	margin-top:20px;
+}
+.bottom6-div-middle #four{
+	font-size:16px;
+	color:#fff;
+	margin-top:20px;
+}
+.bottom6-div-middle #five{
+	font-size:16px;
+	color:#fff;
+	margin-top:20px;
+}
+.bottom6-div-middle #six{
+	font-size:16px;
+	color:#fff;
+	margin-top:20px;
+}
+.bottom6-div-right #one{
+	float:left;
+	margin-top:50px;
+	margin-left:50px;
+}
+.bottom6-div-right #two{
+	width:164px;height:164px;
+	float:left;
+	margin-top:90px;
+	margin-left:-164px;
+}
+.bottom6-div-right #two img{
+	width:100%;height:100%;
+}
+.bottom6-bottom{
+	width:100%;height:150px;
+	margin-top:20px;
+	background-color:#2691FD;
+}
+.bottom6-bottom #one{
+	color:#fff;
+	width:1000px;height:50px;
+	margin:auto;
+	margin-top:50px;
+	padding-top:50px;
+	line-height:50px;
+	text-align:center;
+	font-size:20px;
+}
+.bottom6-bottom #one a{
+	color:blue;
+}
+.bottom6-bottom #one a:hover{
+	text-decoration:none;
+}
