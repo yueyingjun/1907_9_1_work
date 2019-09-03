@@ -1,0 +1,1287 @@
+li,ol,ul,body,p,h1,h2,h3,h4,h5,h6,div,a{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+
+
+        .zero{
+			width:100%;height:60px;
+			border-top:4px blue solid;
+            border-bottom: 1px #000 solid;
+            position: fixed;
+		}
+		.zero-zero{
+			width:1600px;height:60px;
+            background: #fff;
+		}
+		.zero-zero>div{
+			float:left;
+		}
+		.zero-zero .left {
+            color:blue;
+            padding-left: 165px;
+			margin-right: 165px;
+		}
+		.zero-zero .left img{
+			margin-top: 10px;
+			vertical-align:-12px;
+			margin-right: 10px;
+		}
+		.certen {
+			width:600px;
+			height:60px;
+		}
+		.certen a{
+			float:left;
+			margin-right: 21px;
+			line-height: 60px;
+			text-decoration: none;
+		}
+		.certen a:hover{
+			color:blue;
+		}	
+		.right{
+			width:200px;
+			height:40px;
+			border-left: 1px solid #000;
+			margin-top:10px;
+		}
+		.right img{
+			float:right;
+			margin-top:5px;
+		}	
+
+        .one{
+        height:96px;
+        width: 100%;
+        }
+        .one-top{
+            height: 110px;
+            width: 1200px;
+            margin: auto;
+            padding-top: 75px;
+        }
+        
+        .one-top-left-img{
+            float: left;
+            padding-top: 10px;
+            padding-left: 5px;
+        }
+        .one-top-right{
+            width: 670px;
+            height: 110px;
+            float: right;
+        }
+        .one-top-right-top img{
+            padding-right:40px;
+        }
+        .one-top-right-top li{
+            float: right;
+        }
+        
+        .one-top-right-buttom a{
+            float: right;
+            padding-top: 20px;
+            padding-left: 32px;
+            text-decoration:none;
+            
+        }
+        .one-top-right-buttom a:hover{
+            color:blue;
+            margin-top: 2px blue solid;
+        }
+
+
+        .two{
+            width: 1920px;
+            height: 500px;
+            margin-top: 100px;
+        }
+        .two-background{
+            width: 100%;
+            height: 100%;
+            background: url("http://www.sxuek.com/uploadfile/2018/0409/20180409103102204.jpg") no-repeat -125px;
+        }
+
+
+        .three{
+            width:100%;
+            height: 128px;;
+        }
+        .three-zero{
+            width: 1200px;
+            height: 100%;
+            border-bottom: 1px #000 solid;
+            margin: auto;
+        }
+        .three-zero li{
+            width: 182px;
+            height: 128px;
+            float: left;
+            padding-right: 50px;
+        }
+        .three-zero-img{
+            float: left;
+            padding-top: 30px;
+            padding-right: 10px;
+        }
+        .three-zero-div{
+            width: 108px;
+            height: 48px;
+            float: left;
+        }
+        .three-zero h5{
+            margin-top: 35px;
+            float: left;
+            width: 108px;
+            height: 24px;
+            font-size: 20px;
+        }
+        .three-zero h6{
+            float: left;
+            width: 98px;
+            height: 24px;
+            font-size: 10px;
+            line-height: 1.2px;
+            margin-top: 10px;
+        }
+
+        .thourand1{
+            width: 1200px;
+            height: 55px;
+            font-size: 36px;
+            color: #2691fd;
+             line-height: 55px;
+            text-align: center;
+            margin: auto;
+            margin-top: 75px;
+        }
+        .line1{
+            width: 21px;
+            height: 2px;
+            background: #2691fd;
+            margin: 10px auto;
+        }
+        .line-next1{
+            width: 100%;
+            text-align: center;
+            font-size: 16px;
+            color: #222;
+            margin-bottom: 10px;
+        }
+
+
+        .four{
+            width: 100%;
+            height: 525px;
+        }
+        .four-four{
+            width: 1200px;
+            height: 525px;
+            margin: auto;
+        }
+        .four-left{
+            width: 750px;
+            height: 525px;
+            border: 1px #ccc solid;
+            float: left;
+        }
+         .fout-left-top-left{
+            height:38px ;
+            width: 147px;
+            float: left;
+            border: 1px #ccc solid;
+        } 
+
+        .four-left-top-left span{
+            float: left;
+            margin-left:20px; 
+            margin-top: 20px; 
+        }
+        .four-left-top-left p{
+            float: left;
+            margin-left:20px;
+            margin-top: 25px; 
+        }
+        .four-left-top-right a{
+            float: right;
+            text-decoration: none;
+            margin-top: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        .four-left-middle2{
+            width: 688px;
+            height: 110px;
+           margin-top: 25px;
+           margin-left: 10px;
+        }
+        .four-left-middle2 img{
+            width: 100px;
+            height: 100px; 
+            float: left;
+        }
+        .four-left-middle2 span{
+            width: 540px;
+            height: 40px;
+            font-size: 25px;
+            float: left;
+            margin-top: 10px;
+        }
+        .four-left-middle2 p{
+            width: 540px;
+            height: 60px;
+            font-size: 15px;
+            float: left;
+        }
+        
+        .four-left-buttom{
+            width: 688px;
+            height: 110px;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        .four-left-buttom img{
+            width: 100px;
+            height: 100px;
+            float: left;
+        }
+        .four-left-buttom span{
+            width: 540px;
+            height: 40px;
+            float: left;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+        .four-left-buttom p{
+            width: 540px;
+            height: 60px;
+            float: left;
+            font-size: 15px;
+            
+            margin-top: 10px;
+        }
+        .four-right{
+            width: 430px;
+            height: 525px;
+            border: 1px #ccc solid;
+            margin-left: 15px;
+            float: left;
+        }
+        .four-right>div{
+            float: left;
+        }
+        .four-right-top{
+            width: 368px;
+            height: 41px;
+            border-bottom: 1px #ccc solid;
+            margin-left: 30px;
+        }
+        .four-right-top span{
+            font-size: 24px;
+        }
+        .four-right-top-right{
+            float: right;
+            text-decoration: none;
+            margin-top: 25px;
+            color: aqua;
+        }
+        .four-right-middle1{
+            width: 368px;
+            height: 110px;
+            border-bottom: 1px #ccc solid;
+            margin-left: 30px;
+        }
+        .four-right-middle1 span{
+            width: 368px;
+            height: 30px;
+            font-size: 20px;
+            margin-left: 25px;
+            padding-top:20px; 
+            }
+        .four-right-middle1 p{
+            width: 368px;
+            height: 60px;
+            margin-left: 25px;
+            padding-top: 20px;
+        }
+
+        .four-right-middle2{
+            width: 368px;
+            height: 110px;
+            border-bottom: 1px #ccc solid;
+            margin-left: 30px;
+            padding-top: 15px;
+        }
+        .four-right-middle2 span{
+            width: 368px;
+            height: 30px;
+            font-size: 20px;
+            margin-left: 25px;
+            margin-top: 20px;
+            }
+        .four-right-middle2 p{
+            width: 368px;
+            height: 60px;
+            margin-left: 25px;
+            padding-top: 20px;
+        }
+        .four-right-middle3{
+            width: 368px;
+            height: 110px;
+            border-bottom: 1px #ccc solid;
+            margin-left: 30px;
+            padding-top: 15px;
+        }
+        .four-right-middle3 span{
+            width: 368px;
+            height: 30px;
+            font-size: 20px;
+            margin-left: 25px;
+            margin-top: 20px;
+            }
+        .four-right-middle3 p{
+            width: 368px;
+            height: 60px;
+            margin-left: 25px;
+            padding-top: 20px;
+        }
+        .four-right-buttom{
+            width: 368px;
+            height: 110px;
+            margin-left: 30px;
+            padding-top: 15px;
+        }
+        .four-right-buttom span{
+            width: 368px;
+            height: 30px;
+            font-size: 20px;
+            margin-left: 25px;
+            margin-top: 20px;
+            }
+        .four-right-buttom p{
+            width: 368px;
+            height: 60px;
+            margin-left: 25px;
+            padding-top: 20px;
+        }
+
+        .thourand2{
+            width: 1200px;
+            height: 55px;
+            font-size: 36px;
+            color: #2691fd;
+             line-height: 55px;
+            text-align: center;
+            margin: auto;
+            margin-top: 75px;
+        }
+        .line2{
+            width: 21px;
+            height: 2px;
+            background: #2691fd;
+            margin: 10px auto;
+        }
+        .line-next2{
+            width: 100%;
+            text-align: center;
+            font-size: 16px;
+            color: #222;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+
+
+        .five{
+            width: 100%;
+            height: 375px;
+        }
+        .five-five{
+            width: 1200px;
+            height: 375px;
+            margin: auto;
+            
+        }
+        .five-top{
+            width: 1200px;
+            height:65px; 
+            float: left;
+        }
+        .five-top span{
+            font-size: 18px;
+        }
+        .five-top a{
+            padding-left: 30px;
+            text-decoration: none;
+        }
+        .five-buttom{
+            width: 1200px;
+            height: 310px;
+        }
+        .five-buttom-left img{
+            width: 572px;
+            height: 310px;
+            float: left;
+        }
+        .five-buttom-middle{
+            width: 405px;
+            height: 301px;
+            float: left;
+        }
+        .five-buttom-middle div{
+            width: 195px;
+            height: 150px;
+            float: left;
+            margin-left: 5px;
+            margin-bottom: 5px;
+        }
+        .five-buttom-middle-img{
+            width: 195px;
+            height: 150px;
+            float: left;
+        }
+
+        .five-buttom-right{
+            width: 200px;
+            height: 310px;
+            float: left;
+            margin-left:5px; 
+        }
+        .five-buttom-right-img{
+            width: 200px;
+            height: 310px;
+            float: left;
+        }
+        /* .five-buttom-right-top{
+            width: 100px;
+            color: #2691fd;
+            float: left;
+            padding-left: 20px;
+            padding-right: 100px;
+            margin-top: 30px;
+        }
+        .five-buttom-right-middle1{
+            height: 70px;
+            width: 200px;
+            margin-top: 30px;
+        }
+        .five-buttom-right-middle1-left span{
+            float: left;
+            font-size: 48px;
+            padding-left: 20px;
+            margin-top: 30px;
+        }
+        .five-one{
+            float: left;
+            padding-left: 10px;
+            padding-right: 75px;
+            margin-top: 30px;
+        }
+        .five-two{
+            float:left; 
+            padding-left :10px;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+        .five-buttom-right-middle2{
+            float: left;
+            margin-left: 30px;
+            font-size: 10px;
+            padding-right: 100px;
+            margin-top: 30px;
+        }
+        .five-buttom-right-middle3{
+            float: left;
+             margin-left: 30px;
+             padding-right: 80px;
+             margin-top: 30px;
+        }
+        .five-buttom-right-buttom{
+            float: left;
+            margin-top: 12px;
+            margin-left: 30px;
+            background: #2691fd;
+            font-size: 20px;
+        } */
+
+
+
+
+        .six{
+             width: 100%;
+             height: 375px;
+        }
+        .six-six{
+            width: 1200px;
+            height: 375px;
+            margin: auto;
+            margin-top: 50px;
+        }
+        .six-top{
+            width: 1200px;
+            height:65px; 
+            float: left;
+        }
+        .six-top span{
+            font-size: 18px;
+        }
+        .six-top a{
+            padding-left: 30px;
+            text-decoration: none;
+        }
+        .six-buttom{
+            width: 1200px;
+            height: 310px;
+        }
+        .six-buttom-left img{
+            width: 572px;
+            height: 310px;
+            float: left;
+        }
+        .six-buttom-middle{
+            width: 405px;
+            height: 301px;
+            float: left;
+        }
+        .six-buttom-middle div{
+            width: 195px;
+            height: 150px;
+            float: left;
+            margin-left: 5px;
+            margin-bottom: 5px;
+        }
+        .six-buttom-middle-img{
+            width: 195px;
+            height: 150px;
+            float: left;
+        }
+
+        .six-buttom-right{
+            width: 200px;
+            height: 310px;
+            float: left;
+            margin-left:5px; 
+        }
+        .six-buttom-right-img{
+            width: 200px;
+            height: 310px;
+            float: left;
+        }
+       /*  .six-buttom-right-top{
+            width: 100px;
+            color: #2691fd;
+            float: left;
+            padding-left: 20px;
+            padding-right: 100px;
+            margin-top: 30px;
+        }
+        .six-buttom-right-middle1{
+            height: 70px;
+            width: 200px;
+            margin-top: 30px;
+        }
+        .six-buttom-right-middle1-left span{
+            float: left;
+            font-size: 48px;
+            padding-left: 25px;
+            margin-top: 30px;
+        }
+        .six-one{
+            float: left;
+            padding-left: 20px;
+            padding-right: 75px;
+            margin-top: 30px;
+        }
+        .six-two{
+            float:left; 
+            padding-left :20px;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+        .six-buttom-right-middle2{
+            float: left;
+            margin-left: 30px;
+            font-size: 10px;
+            padding-right: 100px;
+            margin-top: 30px;
+        }
+        .six-buttom-right-middle3{
+            float: left;
+            margin-left: 30px;
+            padding-right: 80px;
+            margin-top: 30px;
+        }
+        .six-buttom-right-buttom{
+            float: left;
+            margin-top: 12px;
+            margin-left: 30px;
+            background: #2691fd;
+            font-size: 20px;
+        }
+
+ */
+
+        .seven{
+            width: 100%;
+            height: 375px;
+        }
+        .seven-seven{
+            width: 1200px;
+            height: 375px;
+            margin: auto;
+            
+        }
+        .seven-top{
+            width: 1200px;
+            height:65px; 
+            float: left;
+            margin-top: 50px;
+        }
+        .seven-top span{
+            font-size: 18px;
+        }
+        .seven-top a{
+            padding-left: 30px;
+            text-decoration: none;
+        }
+        .seven-buttom{
+            width: 1200px;
+            height: 310px;
+        }
+        .seven-buttom-left img{
+            width: 572px;
+            height: 310px;
+            float: left;
+        }
+        .seven-buttom-middle{
+            width: 405px;
+            height: 301px;
+            float: left;
+        }
+        .seven-buttom-middle>div{
+            width: 195px;
+            height: 150px;
+            float: left;
+            margin-left: 5px;
+            margin-bottom: 5px;
+        }
+        .seven-buttom-middle-img{
+            width: 195px;
+            height: 150px;
+            float: left;
+        }
+
+        .seven-buttom-right{
+            width: 200px;
+            height: 310px;
+            float: left;
+            margin-left:5px; 
+        }
+        .seven-buttom-right-img{
+            width: 200px;
+            height: 310px;
+            float: left;
+        }
+       /*  .seven-buttom-right-top{
+            width: 100px;
+            color: #2691fd;
+            float: left;
+            padding-left: 20px;
+            padding-right: 100px;
+            margin-top: 30px;
+        }
+        .seven-buttom-right-middle1{
+            height: 70px;
+            width: 200px;
+            margin-top: 30px;
+        }
+        .seven-buttom-right-middle1-left span{
+            float: left;
+            font-size: 48px;
+            padding-left: 20px;
+            margin-top: 30px;
+        }
+        .seven-one{
+            float: left;
+            padding-left: 10px;
+            padding-right: 75px;
+            margin-top: 30px;
+        }
+        .seven-two{
+            float:left; 
+            padding-left :10px;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+        .seven-buttom-right-middle2{
+            float: left;
+            margin-left: 30px;
+            font-size: 10px;
+            padding-right: 100px;
+            margin-top: 30px;
+        }
+        .seven-buttom-right-middle3{
+            float: left;
+            margin-left: 30px;
+            padding-right: 80px;
+            margin-top: 30px;
+        }
+        .seven-buttom-right-buttom{
+            float: left;
+            margin-top: 12px;
+            margin-left: 30px;
+            background: #2691fd;
+            font-size: 20px;
+            margin-bottom: 50px;
+        }
+ */
+
+
+        .eight{
+            width: 100%;height: 60px;
+            background-image: url(http://www.sxuek.com/statics/images/uek/images/szh_images/lyn-jianban.jpg);
+            margin-top: 100px;
+        }
+        .eight-eight{
+            width:1200px;height:60px;
+            margin: auto;
+            overflow: hidden;
+            border-right: 4px #2691FD solid;
+            border-left: 4px #2691FD solid;
+            background: #fff
+        }
+        .eight-left{
+            float: left;
+            margin-left: 10px;
+        }
+        .eight-left div{
+            font-size: 35px;
+        }
+        .eight-left .eight-VIDEO{
+            color: black;
+            font-size: 20px;
+        }
+        .eight-left .eight-APPRECIATION{
+            color: blue;
+        }
+        .eight-right{
+            float:right;
+            margin-top: 40px;
+            margin-right: 15px;
+        }
+        .eight-right a{
+            width:60px;
+            height: 15px;
+            text-decoration:none;
+            padding: 3px;
+        }
+        .eight-right a:hover{
+            color:blue;
+            border-top: 2px blue solid;
+            
+		}	
+        .eight-down{
+            width: 100%;height: 416px;
+            float: left;
+            margin-left: 225px;
+            margin-top: 50px;
+        }
+        .eight-down div{
+            width: 254px;height: 362px;
+            border:1px #000 solid;
+            float: left;
+            margin-right: 5px;
+        }
+        .eight-imgone{
+            height: 254px;
+            width: 254px;
+        }
+        .eight-imgtwo{
+            height: 254px;
+            width: 254px;
+        }
+        .eight-imgthree{
+            height: 254px;
+            width: 254px;
+        }
+        .eight-imgfour{
+            height: 254px;
+            width: 254px;
+        }
+
+
+
+
+
+        .nine{
+            width: 100%;height: 60px;
+            background-image: url(http://www.sxuek.com/statics/images/uek/images/szh_images/lyn-jianban.jpg);
+            margin-top: 500px;
+        }
+        .nine-nine{
+            width:1200px;height:60px;
+            margin: auto;
+            overflow: hidden;
+            border-right: 4px #2691FD solid;
+            border-left: 4px #2691FD solid;
+            background: #fff
+        }
+        .nine-left{
+            float: left;
+            margin-left: 10px;
+        }
+        .nine-left div{
+            font-size: 35px;
+        }
+        .nine-left .nine-VIDEO{
+            color: black;
+            font-size: 20px;
+        }
+        .nine-left .nine-APPRECIATION{
+            color: blue;
+        }
+        .nine-right{
+            float:right;
+            margin-top: 40px;
+            margin-right: 15px;
+        }
+        .nine-right a{
+            width:60px;
+            height: 15px;
+            text-decoration:none;
+            padding: 3px;
+        }
+        .nine-right a:hover{
+            color:blue;
+            border-top: 2px blue solid;
+            
+		}	
+        .nine-down{
+            width: 100%;height: 416px;
+            float: left;
+            margin-left: 225px;
+            margin-top: 50px;
+        }
+        .nine-down>div{
+            width: 254px;height: 450px;;
+            border:1px #000 solid;
+            float: left;
+            margin-right: 5px;
+            margin-top: 50px;
+        }
+        .nine-imgone{
+            height: 350px;
+            width: 254px;
+            padding-bottom: 25px;
+        }
+        .nine-imgtwo{
+            height: 350px;
+            width: 254px;
+            padding-bottom: 25px;
+        }
+        .nine-imgthree{
+            height: 350px;
+            width: 254px;
+            padding-bottom: 25px;
+        }
+        .nine-imgfour{
+            height: 350px;
+            width: 254px;
+            padding-bottom: 25px;
+        }
+
+        .nine-chu{
+            width: 254px;
+            height: 60px;
+            float: left;
+            font-size: 18px;
+            margin-top:10px;
+        }
+        
+        .nine-chu span{
+            float: left;
+            margin-top: 20px;
+            margin-left:70px; 
+            background: #2691FD;
+        }
+
+
+
+        .ten{
+            width: 100%;height: 60px;
+            background-image: url(http://www.sxuek.com/statics/images/uek/images/szh_images/lyn-jianban.jpg);
+            margin-top: 650px;
+        }
+        .ten-ten{
+            width:1200px;height:60px;
+            margin: auto;
+            overflow: hidden;
+            border-right: 4px #2691FD solid;
+            border-left: 4px #2691FD solid;
+            background: #fff
+            
+        }
+        .ten-left{
+            float: left;
+            margin-left: 10px;
+        }
+        .ten-left div{
+            font-size: 35px;
+        }
+        .ten-left .ten-VIDEO{
+            color: black;
+            font-size: 20px;
+        }
+        .ten-left .ten-APPRECIATION{
+            color: blue;
+        }
+        .ten-right{
+            float:right;
+            margin-top: 40px;
+            margin-right: 15px;
+        }
+        .ten-right a{
+            width:60px;
+            height: 15px;
+            text-decoration:none;
+            padding: 3px;
+        }
+        .ten-right a:hover{
+            color:blue;
+            border-top: 2px blue solid;
+            
+		}	
+        .ten-down{
+            width: 100%;height: 300px;
+            float: left;
+            margin-left: 225px;
+            margin-top: 50px;
+        }
+        .ten-down div{
+            width: 266px;height: 86px;
+            border:1px #000 solid;
+            float: left;
+            margin-right: 5px;
+            
+        }
+        
+        .ten-chu{
+            font-size: 20px;
+            color:#fff;
+            width: 25px;
+            height: 25px;
+            float: left;
+            background: #ccc;
+            margin-top: 15px;
+            margin-left: 15px;
+            
+        }
+        .ten-dan{
+            float:left;
+            margin-top: 15px;
+            margin-left: 25px;
+            
+        }
+        .ten-xue{
+            float:left;
+            margin-top:20px;
+            margin-left: -20px; 
+        }
+
+
+
+
+        .ele{
+            width: 100%;height: 60px;
+            background-image: url(http://www.sxuek.com/statics/images/uek/images/szh_images/lyn-jianban.jpg);
+            margin-top: 400px;
+        }
+        .ele-ele{
+            width:1200px;height:60px;
+            margin: auto;
+            overflow: hidden;
+            border-right: 4px #2691FD solid;
+            border-left: 4px #2691FD solid;
+            background: #fff
+        }
+        .ele-left{
+            float: left;
+            margin-left: 10px;
+        }
+        .ele-left div{
+            font-size: 35px;
+        }
+        .ele-left .ele-VIDEO{
+            color: black;
+            font-size: 20px;
+        }
+        .ele-left .ele-APPRECIATION{
+            color: blue;
+        }
+        .ele-right{
+            float:right;
+            margin-top: 40px;
+            margin-right: 15px;
+        }
+        .ele-right a{
+            width:60px;
+            height: 15px;
+            text-decoration:none;
+            padding: 3px;
+        }
+        .ele-right a:hover{
+            color:blue;
+            border-top: 2px blue solid;
+            
+		}	
+        .ele-down{
+            width: 100%;height: 316px;
+            float: left;
+            margin-left:150px;
+            margin-top: 50px;
+        }
+        .ele-down div{
+            width: 300px;height: 220px;
+            border:1px #000 solid;
+            float: left;
+            margin-right: 5px;
+        }
+        .ele-imgone{
+            width: 300px;height: 220px;
+        }
+        .ele-imgtwo{
+            width: 300px;height: 220px;
+        }
+        .ele-imgthree{
+            width: 300px;height: 220px;
+        }
+        .ele-imgfour{
+            width: 300px;height: 220px;
+        }
+        .ele-chu{
+            float: left;
+            margin-left: 112px;
+        }
+
+
+
+        .twe{
+            width: 100%;height: 60px;
+            background-image: url(http://www.sxuek.com/statics/images/uek/images/szh_images/lyn-jianban.jpg);
+            margin-top: 400px;
+        }
+        .twe-twe{
+            width:1200px;height:60px;
+            margin: auto;
+            overflow: hidden;
+            border-right: 4px #2691FD solid;
+            border-left: 4px #2691FD solid;
+            background: #fff
+        }
+        .twe-left{
+            float: left;
+            margin-left: 10px;
+        }
+        .twe-left div{
+            font-size: 35px;
+        }
+        .twe-left .ele-VIDEO{
+            color: black;
+            font-size: 20px;
+        }
+        .twe-left .ele-APPRECIATION{
+            color: blue;
+        }
+        .twe-right{
+            float:right;
+            margin-top: 40px;
+            margin-right: 15px;
+        }
+        .twe-right a{
+            width:60px;
+            height: 15px;
+            text-decoration:none;
+            padding: 3px;
+        }
+        .twe-right a:hover{
+            color:blue;
+            border-top: 2px blue solid;
+            
+        }	
+        .twe-down{
+            width: 920px;height: 200px;
+            margin:auto;
+            margin-top: 50px;
+        }
+        .twe-down a>img{
+            float: left;
+            height: 66px;
+            width: 147px;
+            margin-right: 30px;
+            margin-bottom: 15px;
+            border: 1px #000 solid;
+        }
+        .twe-down-one{
+            margin-left: 20px;
+        }    
+        
+        
+        .xian{
+            width: 1000px;
+            height: auto;
+            margin: auto;
+            text-align: left;
+            font-size: 16px;
+            overflow: hidden;
+            line-height: 5;
+            margin-left: 320px;
+        }
+        .xian a{
+            text-decoration: none;
+            
+        }
+
+
+        .thteen{
+            width: 100%;
+            height: 350px;
+            background: #2691FD;
+        }
+        .thteen-thteen{
+            width: 1200px;
+            height: 350px;
+            margin: auto;
+            
+        }
+        .thteen-top>div{
+            float: left;
+        }
+
+        .thteen-top{
+            height: 210px;
+            width: 1200px;
+            padding-top: 50px;
+        }
+        .thteen-top-left{
+            height: 180px;
+            width:280px ;
+            margin-left: 150px;
+            color: white;
+            border-right: #000 solid 1px;
+        }
+        .thteen-top-left-p1{
+            padding-bottom: 15px;
+            font-size: 18px;
+        }
+        .thteen-top-left p{
+            font-size: 13px;
+        }
+        .thteen-top-left-p2{
+            padding-bottom: 15px;
+        }
+        .thteen-top-left-p3{
+            padding-bottom: 15px;
+        }
+        .thteen-top-middle1{
+            height: 180px;
+            width:150px ;
+            margin-left: 20px;
+            color: white;
+        }
+        .thteen-top-middle1 h3{
+            margin-bottom: 40px;
+            font-size: 16px;
+            font-weight: 150;
+        }
+        .thteen-top-middle1 a{
+            color: white;
+            padding-bottom: 5px;
+        }
+        .thteen-top-middle2{
+            margin-left: 20px;
+            color: white;
+        }
+        .thteen-top-middle2 h3{
+            margin-bottom: 40px;
+            font-size: 16px;
+            font-weight: 150;
+        }
+        .thteen-top-middle2 a{
+            color: white;
+            padding-bottom: 5px;
+        }
+        .thteen-top-middle3{
+            margin-left: 20px;
+            color: white;
+        }
+        .thteen-top-middle3 h3{
+            margin-bottom: 40px;
+            font-size: 16px;
+            font-weight: 150;
+        }
+        .thteen-top-middle3 a{
+            color: white;
+            padding-bottom: 5px;
+        }
+        .thteen-top-middle4{
+            height: 180px;
+            width:125px ;
+            margin-left: 20px;
+            color: white;
+            border-right: #000 solid 1px;
+        }
+        .thteen-top-middle4 h3{
+            margin-bottom: 40px;
+            font-size: 16px;
+            font-weight: 150;
+        }
+        .thteen-top-middle4 a{
+            color: white;
+            padding-bottom: 5px;
+        }
+        .thteen-top-right{
+            height: 180px;
+            width: 200px;
+            float: left;
+        }
+        .thteen-tel{
+            margin-left: 20px;
+            float: left;
+        }
+        .thteen-code{
+            width:165px ;
+            height: 165px;
+            margin-left: 20px;
+        }
+        .thteen-thteen-t{
+            width: 100%;
+            height: 80px;
+            border-top: 1px solid #000;
+            margin: auto;
+        }
+        .thteen-buttom{
+            width: 1200px;
+            height: 80px;
+            color: #fff;
+            float: left;
+            padding-top: 30px;
+            padding-left: 300px;
+        }
+        .thteen-buttom p a{
+            color: #fff;
+            float: left;
+            padding-right: 20px;
+            
+        }
+        .thteen-buttom span{
+            float: left;
+            padding-right: 20px;
+        }
+
+
+        
+
+
