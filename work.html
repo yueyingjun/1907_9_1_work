@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            padding: 0;margin: 0;
+        }
+
+        ul{
+            padding: 0;margin: 0;
+            list-style: none;
+        }
+        .top1{
+            width: 100%;height: 100px;
+            position: relative;
+        }
+        .top1-left{
+            float: left;
+            margin-left: 80px;
+            margin-top: 10px;
+            height:80px;width:250px;
+            cursor:pointer;
+        }
+        .top1-left1{
+            float: left;
+            height:80px;width:80px;
+            background: url("http://www.sxuek.com/statics/images/uek/logo2.png");
+            background-size: 100% 100%;
+        }
+        .top1-left2{
+            float: left;
+            height: 55px;width: 160px;
+            margin-top: 15px;
+        }
+        .a{
+            float: right;
+        }
+        .a li{
+            float: left;
+            margin-top: 20px;
+            margin-right: 50px;
+            cursor: pointer;
+        }
+        .b{
+            position: absolute;
+            top:70px;
+            right: 50px;
+        }
+        .b li{
+            float: left;
+            cursor: pointer;
+            margin-right:30px;
+        }
+        .b li:hover{
+            color: #2691FD;
+        }
+        .top2{
+            height: 450px;width: 100%;
+            margin-top: 20px;
+            background: url("http://www.sxuek.com/uploadfile/2017/1109/20171109062611464.jpg");
+            background-size: 100% 100%;
+        }
+        .top3{
+            height: 120px;width: 100%;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+        .top3 li{
+            float: left;
+            height: 100%;width: 200px;
+            margin-left: 50px;
+        }
+        .top3 li img{
+            float: left;
+            margin-top: 30px;
+        }
+        .top3 li b{
+            float: left;
+            margin-top: 30px;
+            margin-left: 15px;
+            font-size: 20px;
+        }
+        .top3 li span{
+            float: left;
+            font-size: 14px;
+            margin-left: 15px;
+        }
+        .top3 b:hover{
+            color: #2691FD;
+        }
+        .top4{
+            line-height:20px;
+            padding:70px 0px;
+            height: 50px;
+            width: 95%;
+            margin-left: 45px;
+            border-top:1px solid gray;
+            text-align: center
+        }
+        .center1-1{
+            float: left;
+            height: 500px;width: 700px;
+            margin-left: 50px;
+            border-radius:10px;
+            border: 1px solid #ccc7b5;
+        }
+        .center1-11{
+            height: 60px;width: 630px;
+            margin-left: 40px;
+            border-bottom: 1px solid #0caeff;
+        }
+        .center1-11 img{
+            float: left;
+            margin-top: 10px;
+        }
+        .center1-11 span{
+            float: left;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .center1-11 ul{
+            float: right;
+            margin-top: 35px;
+            margin-right: 10px;
+        }
+        .center1-11 li{
+            float: left;
+            font-size: 12px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .center1-11 li:hover{
+            color: #2691FD;
+        }
+        .center1-12{
+            float: left;
+            background: url("http://www.sxuek.com/statics/images/uek/loudao.jpg" );
+            height: 150px;width: 620px;
+            margin-left: 40px;
+        }
+        .center1-13{
+            float: left;
+            margin-left: 30px;
+            height: 100px;width: 650px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .center1-13 img{
+            float: left;
+            margin-right: 10px;
+            height: 100px;width: 150px;
+        }
+        .a{
+            float: left;
+        }
+        .a:hover{
+            color: #2691FD;
+        }
+        .center1-14{
+            float: left;
+            margin-left: 30px;
+            height: 100px;width: 650px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .center1-14 img{
+            float: left;
+            margin-right: 10px;
+            height: 100px;width: 150px;
+            cursor: pointer;
+        }
+        .c:hover{
+            color: #2691FD;
+        }
+        .center1-2{
+            float: left;
+            width: 400px;height: 500px;
+            margin-left: 20px;
+            border-radius:10px;
+            border: 1px solid #ccc7b5;
+        }
+        .center1-21{
+            height: 60px;width: 330px;
+            margin-left: 20px;
+            border-bottom: 1px solid #0caeff;
+        }
+        .center1-21 img{
+            float: left;
+            margin-top: 10px;
+        }
+        .center1-21 span{
+            float: left;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .center1-22{
+            float: left;
+            width: 370px;height: 90px;
+            margin-left: 20px;
+            margin-top: 15px;
+            border-bottom:1px dashed #ccc7b5;
+            cursor: pointer;
+        }
+        .d:hover{
+            color: #2691FD;
+        }
+        .center1-23{
+            float: left;
+            width: 370px;height: 90px;
+            margin-left: 20px;
+            margin-top: 15px;
+            border-bottom:1px dashed #ccc7b5;
+            cursor: pointer;
+        }
+        .e:hover{
+            color: #2691FD;
+        }
+        .center1-24{
+            float: left;
+            width: 370px;height: 95px;
+            margin-left: 20px;
+            margin-top: 15px;
+            border-bottom:1px dashed #ccc7b5;
+            cursor: pointer;
+        }
+        .f:hover{
+            color: #2691FD;
+        }
+        .center1-25{
+            float: left;
+
+            margin-left: 20px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+        .f:hover{
+            color: #2691FD;
+        }
+        .center2{
+            float: left;
+            line-height:20px;
+            padding:70px 0px;
+            height: 50px;
+            width: 95%;
+            margin-left: 45px;
+            border-top:1px solid gray;
+            text-align: center
+        }
+    </style>
+</head>
+<body>
+<div class="top1">
+    <div class="top1-left">
+        <div class="top1-left1"></div>
+        <div class="top1-left2">
+            <strong style="font-size: 30px;margin-left: 5px">优逸客科技</strong>
+            <span style="font-size: 11px;margin-left: 10px">I T 互 联 网 就 业 实 训 基 地</span>
+        </div>
+    </div>
+    <ul class="a">
+        <li><img src="http://www.sxuek.com/statics/images/uek/shixun.png" alt=""></li>
+        <li><img src="http://www.sxuek.com/statics/images/uek/rongyu.png" alt=""></li>
+        <li><img src="http://www.sxuek.com/statics/images/uek/gaoxin.png" alt=""></li>
+        <li><img src="http://www.sxuek.com/statics/images/uek/phone.png" alt=""></li>
+    </ul>
+    <ul class="b">
+        <li><strong>首页</strong></li>
+        <li><strong>课程类别</strong></li>
+        <li><strong>就业展示</strong></li>
+        <li><strong>权威布道师</strong></li>
+        <li><strong>视频课程</strong></li>
+        <li><strong>新闻中心</strong></li>
+        <li><strong>关于我们</strong></li>
+    </ul>
+</div>
+<div class="top2"></div>
+<ul class="top3">
+    <li>
+        <img src="http://www.sxuek.com/statics/images/uek/zero.png" alt="">
+        <b>实训过程 <br></b>
+        <span>三分钟视频了解</span>
+    </li>
+    <li>
+        <img src="http://www.sxuek.com/statics/images/uek/st.png" alt="" >
+        <b>就业服务</b>
+        <span>三分钟视频了解</span>
+    </li>
+    <li>
+        <img src="http://www.sxuek.com/statics/images/uek/shipin.png" alt="" >
+        <b>优逸视频</b>
+        <span>学员视频免费看</span>
+    </li>
+    <li>
+        <img src="http://www.sxuek.com/statics/images/uek/ty.png" alt="">
+        <b>免费体检</b>
+        <span>入学享免费体检一次</span>
+    </li>
+    <li>
+        <img src="http://www.sxuek.com/statics/images/uek/kt.png" alt="" >
+        <b>大咖分享会</b>
+        <span>深入学习巩固知识</span>
+    </li>
+</ul>
+<div class="top4" >
+    <span style="font-size: 35px;color: #2691FD;">专注大学生IT互联网就业实训<br></span>
+    <span style="font-size: 25px;color: #2691FD;">一<br></span>
+    <span>专注/极致/口碑 每时每刻都精彩纷呈</span>
+</div>
+<div class="center1-1">
+    <div class="center1-11">
+        <img src="111.png">
+        <span>新闻资讯</span>
+        <ul>
+            <li>优逸新闻</li>
+            <li>班级活动</li>
+            <li>媒体报道</li>
+            <li>技术交流</li>
+            <li style="color: #ff892b">MORE</li>
+        </ul>
+    </div>
+    <div class="center1-12"></div>
+    <div class="center1-13">
+        <img src="http://www.sxuek.com/uploadfile/2019/0327/20190327104147805.jpg" alt="">
+        <span class="a">2019年度优逸客产学合作协同育人项目申报指南<br></span>
+        <span style="font-size: 13px;float: left;margin-top: 15px;color: rgba(114,109,98,0.84)">2019年度第一批优逸客科技有限公司教育部产学合作协同育人项目申报指南2019年，<br></span>
+        <span style="font-size: 13px;float: left;margin-top: 15px;color: rgba(114,109,98,0.84)">优逸客科技有限公司在跨境电子商务，互联网UI（User Inter</span>
+    </div>
+    <div class="center1-14">
+        <img src="http://www.sxuek.com/uploadfile/2019/0105/20190105021855777.jpg" alt="">
+        <span class="c">2019,不惧改变，我们会更好!<br></span>
+        <span style="font-size: 13px;float: left;margin-top: 15px;color: rgba(114,109,98,0.84)">
+            致优秀的你:2019新年伊始，首先向所有的朋友道一句新年快乐!
+        </span>
+    </div>
+</div>
+<div class="center1-2">
+    <div class="center1-21">
+        <img src="112.png">
+        <span>优逸客知识库</span>
+        <span style="float: right;color: #ff892b;font-size: 13px;margin-top: 30px">MORE</span>
+    </div>
+    <div class="center1-22">
+        <span class="d" >互联网行业的盈利方式<br><br></span>
+        <span style="font-size: 13px;margin-top: 15px;color: rgba(114,109,98,0.84)">就是让b出钱，让c出钱，让国家出钱</span>
+    </div>
+    <div class="center1-23">
+        <span class="e">对操作系统的认识 <br><br></span>
+        <span style="font-size: 13px;margin-top: 15px;color: rgba(114,109,98,0.84)">一个操作系统应该具备那些内容呢</span>
+    </div>
+    <div class="center1-24">
+        <span class="f">UI设计的发展<br><br></span>
+        <span style="font-size: 13px;margin-top: 15px;color: rgba(114,109,98,0.84)">
+            设计是要产生价值的，而往往解决设计的问题是采用非设计<br><br>
+        </span>
+        <span style="font-size: 13px;margin-top: 15px;color: rgba(114,109,98,0.84)">的手段</span>
+    </div>
+    <div class="center1-25">
+        <span class="g">什么是用户体验<br><br></span>
+        <span style="font-size: 13px;margin-top: 15px;color: rgba(114,109,98,0.84)">
+            说到用户体验，我想在座的各位对用户体验都有自己的理<br><br>
+        </span>
+        <span style="font-size: 13px;margin-top: 15px;color: rgba(114,109,98,0.84)">
+            解，它是我们在做产品或者......
+        </span>
+
+    </div>
+</div>
+<div class="center2" >
+    <span style="font-size: 35px;color: #2691FD;">科学实训 服务保障 实现你的梦想<br></span>
+    <span style="font-size: 25px;color: #2691FD;">一<br></span>
+    <span>责任/激情/梦想 我们的愿望是让每一位学员找到一份满意的工作</span>
+</div>
+</body>
+</ht
