@@ -1,0 +1,168 @@
+body ,ul,li{
+    margin: 0;padding: 0;
+    list-style: none;
+}
+.five-content{
+    width: 1200px;height: 480px;
+   /* border: 1px solid red;*/
+
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+.five-top{
+    width: 100%;height: 50px;
+   /* border: 1px solid blue;*/
+
+}
+
+.five-top-left{
+
+    font-size: 30px;
+    float: left;
+    margin-right: 50px;
+}
+
+
+.five-top-right{
+
+    width: 500px;height: 100%;
+    line-height: 52px;
+
+
+}
+
+.blue1{
+    color: #2691fd;
+    text-decoration: overline;
+    float: left;
+    margin-left: 20px;
+}
+.blue2{
+    float: left;
+    margin-left: 50px;
+}
+.blue3{
+    float: left;
+    margin-left: 50px;
+}
+.blue-two{
+    float: left;
+    color: mediumpurple;
+    text-decoration: overline;
+    margin-left: 20px;
+}
+.blue-three{
+    color: darkred;
+    text-decoration: overline;
+    margin-left: 20px;
+}
+
+
+.five-below{
+    width: 100%;height: 410px;
+  /*  border:1px solid red ;*/
+   border-bottom: 1px solid #888888;
+    float: left;
+    position: relative;
+
+}
+
+.five-below-left{
+    width: 600px;height: 326px;
+   /* border: 1px solid yellowgreen;*/
+    background-image: url("http://www.sxuek.com/statics/images/uek/wzq930/python.jpg");
+    background-size: 100% 100%;
+   position: absolute;
+   top: 30px;
+}
+.five-below-left1{
+    width: 600px;height: 326px;
+    /* border: 1px solid yellowgreen;*/
+    background-image: url("http://www.sxuek.com/statics/images/uek/ui.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 30px;
+}
+
+.five-below-left2{
+    width: 600px;height: 326px;
+    /* border: 1px solid yellowgreen;*/
+    background-image: url("http://www.sxuek.com/statics/images/uek/web.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 30px;
+}
+
+
+.five-below-center{
+    float: left;
+    width: 380px;height: 335px;
+   /* border: 1px solid yellowgreen;*/
+    display: inline-block;
+    position: absolute;
+    left: 600px;top: 30px;
+
+}
+.center-tu1{
+    float: left;
+    width:180px;height: 160px;
+   /* border: 1px solid red;*/
+    background-image: url("1.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    left: 5px;
+}
+.center-tu2{
+    width:180px;height: 160px;
+  /*  border: 1px solid blue;*/
+    position: absolute;
+    left: 190px;
+    background-image: url("2.jpg");
+    background-size: 100% 100%;
+}
+.center-tu3{
+    float: left;
+    width:180px;height: 160px;
+    /*border: 1px solid orange;*/
+    background-image: url("3.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    left: 5px;
+    top: 165px;
+}.center-tu4{
+     width:180px;height: 160px;
+    /* border: 1px solid aquamarine;*/
+     background-image: url("4.jpg");
+     background-size: 100% 100%;
+     position: absolute;
+     left: 190px;top:165px;
+
+ }
+.five-below-right{
+    width: 225px;height: 328px;
+    /*  border: 1px solid red;*/
+    position: absolute;
+    left: 975px;top: 30px;
+    background: url("5.jpg");
+    background-size: 100% 100%;
+
+}
+.five-below-right1{
+    width: 225px;height: 328px;
+    /*  border: 1px solid red;*/
+    position: absolute;
+    left: 975px;top: 30px;
+    background: url("6.jpg");
+    background-size: 100% 100%;
+
+}
+.five-below-right2{
+    width: 225px;height: 328px;
+    /*  border: 1px solid red;*/
+    position: absolute;
+    left: 975px;top: 30px;
+    background: url("7.jpg");
+    background-size: 100% 100%;
+
+}

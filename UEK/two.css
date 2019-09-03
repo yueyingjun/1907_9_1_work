@@ -1,0 +1,10 @@
+body{
+    margin: 0;padding: 0;
+}
+.bigtu{
+   width:100%; height: 600px;
+    background: url("http://www.sxuek.com/uploadfile/2018/0409/20180409103102204.jpg") no-repeat center;
+    margin: auto;
+    margin-top:-40px;
+
+}

@@ -1,0 +1,197 @@
+body{
+    margin: 0;padding: 0;
+}
+.four{
+    width: 1200px;height: 632px;
+    /*border: 1px solid red;*/
+    margin: auto;
+    margin-top: -40px;
+    position: relative;
+
+
+}
+.four-left{
+    width: 780px;height: 630px;
+    border: 1px solid #c9c9c9;
+    border-radius: 12px;
+    position: relative;
+    float: left;
+}
+.one{
+    width: 715px;height: 40px;
+    border-bottom: 1px solid #2691fd;
+    float: left;
+    position: relative;
+    position: absolute;
+    left: 36px;
+    top: 36px;
+}
+.one-left .tu{
+    width: 39px;height: 36px;
+    background-image:url("http://www.sxuek.com/statics/images/uek/yyxw.png");
+    float: left;
+
+}
+.one-left .zi{
+    font-size: 30px;
+    position: absolute;
+    left: 50px;
+
+}
+
+.one-center{
+    position: absolute;
+    left: 300px;
+    margin-top: 15px;
+}
+
+.one-right{
+    float: right;
+    color: orange;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.two{
+    width:710px;height: 170px;
+    position: absolute;
+    background-image: url("http://www.sxuek.com/statics/images/uek/loudao.jpg");
+    background-size: 100% 100%;
+    left: 36px;
+    top: 90px;
+
+
+}
+
+.four-left .three{
+    width:715px;height: 350px;
+   /*border: 1px solid yellow;*/
+    position: relative;
+    position: absolute;
+    left: 36px;
+    top: 320px;
+}
+
+.three-top{
+    width:715px;height: 150px;
+   /* border: 1px solid red;*/
+    float: left;
+}
+.three-top .left{
+    width: 150px;height: 120px;
+  /*  border: 2px solid red;*/
+    background-image: url("http://www.sxuek.com/uploadfile/2019/0327/20190327104147805.jpg");
+    background-size: 150px 120px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    float: left;
+}
+
+.three-top .right{
+    margin-top:40px ;
+    position: absolute;
+    left: 180px;
+}
+
+ span{
+    font-size: 18px;
+}
+ span:hover{
+    color: #2691fd;
+}
+
+ p{
+    color: dimgrey;
+}
+.three-below{
+    width:715px;height: 150px;
+   /* border: 1px solid red;*/
+    float: left;
+    position: relative;
+}
+.three-below .left{
+    width: 150px;height: 120px;
+   /* border: 2px solid red;*/
+    background-image: url("http://www.sxuek.com/uploadfile/2019/0105/20190105021855777.jpg");
+    background-size: 150px 120px;
+    background-repeat: no-repeat;
+    margin-top: 8px;
+    float: left;
+}
+.three-below .right{
+    margin-top:20px ;
+    position: absolute;
+    left: 180px;
+
+}
+
+
+.four-right{
+    width: 390px;height: 632px;
+    border: 1px solid #c9c9c9;
+    position: relative;
+    float: right;
+    border-radius: 12px;
+}
+.four-right-top{
+    width: 320px;height: 40px;
+    border-bottom: 1px solid #2691fd;
+    float: left;
+    position: relative;
+    position: absolute;
+    left: 36px;
+    top: 36px;
+}
+.tu1{
+    width: 39px;height: 36px;
+    background-image:url("http://www.sxuek.com/statics/images/uek/yyxw.png");
+    float: left;
+}
+.zi1{
+    font-size: 30px;
+    position: absolute;
+    left: 50px;
+}
+.one1-right1{
+    float: right;
+    color: orange;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.four-right-below1{
+    width: 310px;height: 500px;
+   /* border: 1px solid #2691fd;*/
+    position: absolute;
+    left: 36px;
+    top: 120px;
+}
+.word{
+    width: 100%;height: 120px;
+}
+
+
+.line2{
+    width: 1200px;height: 200px;
+   /* border: 1px solid red;*/
+    margin: auto;
+    margin-bottom: -75px;
+
+
+}
+.line2-top{
+    margin-top: 60px;
+    font-size: 40px;
+    color: #2691fd;
+    line-height: 55px;
+    text-align: center;
+
+}
+.line2-center{
+    text-align: center;
+    color: #2691fd;
+}
+.line2-bottom{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
