@@ -1,0 +1,1510 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>UEk</title>
+
+<style>
+	body,p,li,ul,ol{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-style:none;
+}
+
+/*		顶部导航 
+ *	  	.out	.navigation1  .nav_img1   .nav_img2   .nav_text		#2691FD;
+ * 	   100%x96	 1200x110		255x72		670x55		670x35    			border:1px solid red;
+ */
+.out{
+	 width:100%;height:96px;	 
+}
+	.navigation1{
+		width:1200px;height:110px;
+		margin:auto;
+	}	
+		.nav_img1{
+			width:255px;height:72px;
+			float:left;
+			margin-left:5px;
+			margin-top:30px;
+		}
+		.nav_img2{
+			width:675px;height:55px;
+			float:right;
+			margin-top:20px;
+		}
+			.nav_img2 img{
+				margin-bottom:21px;
+				margin-left:52px;
+			}
+		.nav_text{
+			width:670px;height:35px;
+			float:right;
+		}
+			.nav_text a{
+				text-decoration:none;
+				outline:none;
+				color:#000;
+				font-weight:bold;
+				margin-right:25px;
+				font-family: "楷体";
+			}
+				a:hover{
+					color:#2691FD;
+				}
+
+
+/*		轮播图
+ *	  	.carousel		.car_img
+ * 	   100%x500	  						                            
+ */
+.carousel{
+	width:100%;height:500px;
+}
+	.car_img{
+		width:1920px;
+		height:500px;
+		margin:auto;
+		box-sizing:border-box;
+	}
+
+
+/*		过程展示
+ *	  	.out2		.process     .pro_one  .pro_one_img   .pro_one_con
+ * 	   100%x130		1200x128	182x128  			
+ */
+.out2{
+	width:100%;height:130px;
+	padding-top:18px;
+}
+	.process{
+		width:1200px;height:128px;
+		border-bottom:2px solid #ccc;
+		margin:auto;
+	}
+		.pro_one{
+			width:182px;height:128px;
+			float:left;
+			margin-right:50px;
+			box-sizing:border-box;
+		}
+			.pro_one_img{
+				margin-top:40px;
+				float:left;
+			}
+			.pro_one_con{
+				margin-top:40px;
+				float:right;	
+			}
+				.pro_one_con a{
+					text-decoration:none;
+					outline:none;
+					color:#000;
+					font-weight:bold;
+					display:block;
+					margin-bottom:5px;
+				}
+					.pro_one_con a:hover{
+						color: #2691FD;
+					}
+				.pro_one_con p{
+					
+				}
+
+/*		专注于大学生IT互联网就业实训
+ *	  	.out3		.training     .tra_top  .tra_center   .tra_bottom   .news    			 .knows	
+ * 	   100%x670		1200x670	  1200x55  	 1200x18.4    1200x608		750x525  			 430x525
+ *
+ *	.news:	nav2   686.667x41.6667		nav_2_img  147x38		nav_2_text 320x40
+ *			news_content  	688x110 	con_img	 688x177		con_one 688x110   con_one_img   con_one_con
+ *	.knows:  knows_top  368x41   knows_con_one 368x115    knows_con_one_top 368x30  368x60
+ *
+ */
+
+.out3{
+	width:100%;
+	height:670px;
+	margin-top:40px;
+}
+	.training{
+		width:1200px;
+		height:670px;
+		margin:auto;
+	}
+		.tra_top{
+			width:1200px;
+			height:55px;
+			font-size:36px;
+			color:#2691fd;
+			text-align:center;
+			line-height:55px;
+			margin-bottom:20px;
+		}
+		.tra_center{
+			width:1200px;
+			height:18.4px;
+			text-align:center;
+			line-height:18.4px;
+			font-size:16px;
+			color:#222;
+			
+		}
+		.tra_bottom{
+			width:1200px;
+			height:608px;
+			margin-top:40px;
+		}
+			.news{
+				width:750px;
+				height:525px;
+				float:left;
+				border:1px solid black;
+			}
+				.nav2{
+					width:686.667px;
+					height:41.6667px;
+					border-bottom:2px solid #2691FD;
+					margin:20px auto;
+				}
+					#nav2_more{
+						color:#ffa800;	
+					}
+					.nav_2_img{
+						width:147px;
+						height:38px;
+						float:left;
+						font-size:24px;
+						line-height:34px;
+					}	
+					
+					.nav_2_text{
+						width:400px;
+						height:40px;
+						float:right;
+						line-height:40px;	
+					}
+						.nav_2_text a{
+							text-decoration:none;
+							outline:none;
+							color:#000;	
+							display:inline-block;
+							margin-left:20px;
+							font-size:14px;
+						}
+							.nav_2_text a:hover{
+								color:#2691FD;
+							}
+					
+				.news_content{
+					width:688px;
+					height:177px;
+					margin:auto;
+				}
+					.con_img{
+						width:688px;
+						height:177px;
+					}
+						.con_img img{
+							width:670px;
+							height:159px;
+							display:block;
+							margin:9px auto;
+						}
+					.con_one{
+						width:688px;
+						height:110px;
+					}
+						.con_one_img{
+							width:132px;
+							height:99px;
+							float:left;
+						}
+							.con_one_img img{
+								width:132px;
+								height:99px;
+							}
+						.con_one_con{
+							width:540px;
+							float:right;
+						}
+			.knows{
+				width:430px;
+				height:525px;
+				float:right;
+				border:1px solid black;
+			}
+				.knows_top{
+					width:368px;
+					height:41px;
+					margin:20px auto;
+					border-bottom:2px solid #2691FD;
+				}
+					.knows_img{
+						float:left;
+						font-size:24px;
+					}
+					.knows_right{
+						margin-top:15px;
+						float:right;
+						font-size:14px;
+						color:#ffa800;	
+						display:block;
+					}
+				.knows_con_one{
+					width:368px;
+					height:115px;
+				}
+				.knows_con_one_top{
+					width:368px;
+					height:30px;
+				}
+
+/*科学实训 服务保障 实现你的梦想
+ *	out4  		show1 show1_title  show1_slogan  nav3  show1_content  show1_con_img  show1_con_1   show1_con_2
+ *100%x1418.4		  55	        18.4          65  		310			572x310			392x310		232x310
+ *
+ */
+.out4{
+	width:100%;
+	height:1418.4px;
+	margin-top:40px;
+}
+	.show1{
+		width:1200px;
+		height:120.4px;
+		margin:auto;
+	}
+		.show1_title{
+			width:1200px;
+			height:55px;
+			font-size:36px;
+			color:#2691fd;
+			text-align:center;
+			line-height:55px;
+			margin-bottom:20px;
+		}
+		.show1_slogan{
+			width:1200px;
+			height:18.4px;
+			text-align:center;
+			line-height:18.4px;
+			font-size:16px;
+			color:#222;
+		}
+	
+	.nav3{
+		width:1200px;
+		height:65px;
+		margin:20px auto;	
+	}
+		.nav3 a{
+			text-decoration:none;
+			outline:none;
+			color: #2d2d2d;	
+			display:inline-block;
+			margin-right:40px;
+			font-size:18px;					
+		}
+			.nav3 a:hover{
+				color:#2691FD;
+				border-top:2px solid #2691FD;
+			}
+			#nav3_A{
+				font-size:24px;
+				display:inline-block;
+				margin-right:40px;
+			}
+	.show1_content{
+		width:1200px;
+		height:310px;
+		margin:auto;
+		margin-bottom:40px;
+	}
+		.show1_con_img{
+			width:572px;
+			height:310px;
+			float:left;
+		}
+		.show1_con_1{
+			width:392px;
+			height:310px;
+			float:left;
+		}
+			.show1_con_1_1{
+				width:180px;
+				height:150px;
+				background-color:#ccc;
+				display:inline-block;
+				margin:5px 0 0 5px;
+			}
+				.show1_con_1_1 img{
+					width:80px;
+					height:80px;
+					display:block;
+					margin:10px auto;
+				}
+				.show1_con_1_1 a{
+					text-decoration:none;
+					color:#888;
+					outline:none;
+					text-align:center;
+					display:block;
+					font-size:24px;
+				}
+		.show1_con_2{
+			width:232px;
+			height:310px;
+			float:right;
+			background-color:#ddd;	
+		}
+			.show1_con_2 h1{
+				float:left;
+				color:#000;	
+				text-align:center;
+				font-size:80px;
+				font-style:none;
+				margin:10px auto;
+				margin-left:20px;
+					
+			}
+			.show1_con_2 h2{
+				display:inline-block;
+				color:#000;	
+				text-align:center;
+				font-style:normal;
+				margin:auto;
+				margin-left:10px;
+				margin-bottom:20px;
+				font-size:40px;
+			}
+			.show1_con_2 h3{
+				display:inline-block;
+				color:#000;	
+				text-align:center;
+				font-size:20px;
+				font-style:normal;
+				margin-top:25px;
+				margin-bottom:0px;
+				margin-left:10px;
+			}
+			.show1_con_2 h5{
+				display:block;
+				color:#000;	
+				text-align:center;
+				font-size:16px;
+				font-style:normal;
+				margin:10px auto;
+			}
+			.show1_con_2 h6{
+				display:block;
+				color:#6ccae6;	
+				text-align:center;
+				font-size:20px;
+				font-style:normal;
+				margin:15px 0;
+			}
+			.show1_con_2 p{
+				display:block;
+				color:#000;	
+				text-align:center;
+				font-size:20px;
+				font-style:normal;
+				margin:10px auto;
+			}
+			.show1_con_2 span{
+				width:120px;
+				height:40px;
+				line-height:40px;
+				display:block;
+				color:#fff;	
+				text-align:center;
+				font-size:20px;
+				font-style:normal;
+				background-color:#6ccae6;
+				margin:auto;
+			}
+
+/* 师资团队*/	
+
+.out5{
+		margin-top:40px;
+		width:100%;
+		height:60px;
+		background-image:url(http://www.sxuek.com/statics/images/uek/images/szh_images/lyn-jianban.jpg);
+	}
+	.nav4{
+		width:1200px;
+		height:100%;
+		border-left:4px solid blue;
+		border-right:4px solid blue;
+		margin:auto;	
+		background-color:white;
+	}
+	.nav4_left{
+		width:315px;height:100%;
+		margin-left:15px;
+		float:left;
+	}
+		#nav4_s1{
+			font-size:34px;
+			line-height:34px;
+			font-weight: 400;
+		}
+		#nav4_s2{
+			font-size:20px;
+			font-weight:600;
+		}
+		#nav4_s3{
+			font-size:20px;
+			color: #2691FD;
+			margin-left: 5px;
+			font-weight: 300;
+		}
+	.nav4_right{
+		float:right;
+		width:750px;
+		height:100%;
+		padding-top:36px;
+		margin-right:20px;
+		line-height:24px;
+		box-sizing:border-box;
+	}
+	.nav4_right a{
+		text-decoration:none;
+		outline:none;
+		color:#000;
+	}
+	.nav4_right span{
+		margin:0 7px;
+	}
+	.nav4_right a:hover{
+		border-top:2px solid blue;
+		color:blue;
+	}
+	
+	
+	.video{
+		width:1112px;
+		height:270px;
+		margin:73px auto;
+	}
+	.one{
+		width:268px;
+		height:268px;
+		margin-right:10px;
+		float:left;
+	}
+	.img{
+		display:block;
+		width:268px;
+		height:171px;
+	}
+	
+	.imgb{
+		position: relative;
+	}
+	.img2{
+		width:107px;
+		height:30px;
+		position: absolute;
+		right:360px;
+		bottom:310px;
+		background-color:blue;
+		color:white;
+		float:right;
+	}
+	.img2 img{
+		margin-left:10px;
+		margin-right:10px;
+		position: absolute;
+	}
+	.bom{
+		width:268px;
+		height:86px;
+		padding-top:20px;
+		border:1px solid #ccc;
+		box-sizing:border-box;
+	}
+	#chu{
+		padding-left:5px;
+		padding-right:5px;
+		background-color: #999;
+		color:#FFF;
+		text-align:center;
+		line-height:23px;
+		margin-left:20px;
+		margin-right:20px;
+		float:left;	
+	}
+	#txt{
+		
+	}
+	#man{
+		margin-left:20px;
+		margin-top:20px;
+		font-size:14px;
+		color:#ccc;
+	}
+/*师资团队
+*	team_out  team  team_con_1    
+*/
+.team_out{
+	margin:60px 0;
+	width:100%;
+	height:370px;
+}
+	.team{
+		margin:auto;
+		width:1100px;
+	}
+		.team_con_1{
+			width:254px;
+			height:362px;
+			display:inline-block;
+			margin:auto 5px;
+		}
+			.team_con_top{
+				width:254px;
+				height:254px;
+				background: #888;/*#2691fd;*/
+			}
+				.team_con_top img{
+					width:104px;
+					height:139px;
+					display:block;
+					margin:20px auto;
+				}
+				.team_con_top span{
+					display:block;
+					text-align:center;
+					font-size:24px;
+					color:white;
+					
+				}
+			.team_con_bottom{
+				width:254px;
+				height:91px;
+				background: #fff;
+				padding:15px;
+				box-sizing:border-box;
+			}
+/*就业展示
+*	Employment_out  Employment   Employment_con_1   Employment_img 
+*/
+.Employment_out{
+	margin:60px 0;
+	width:100%;
+	height:380px;
+}
+	.Employment{
+		width:1200px;
+		margin:auto;
+	}
+		.Employment_con_1{
+			width:251px;
+			height:368px;
+			float:left;
+			margin-right:20px;
+			margin-left:20px;
+			border:1px solid #2691fd;
+		}
+			.Employment_con_1_top{
+				width:252px;
+				height:288px;
+			}
+				.Employment_con_1_top img{
+					width:140px;
+					height:105px;
+					display:block;
+					margin:20px auto;
+				}
+				.Employment_con_1_top p{
+					display:block;
+					text-align:center;
+					margin-bottom:10px;
+				}
+				.Employment_con_1_top span{
+					display:block;
+					text-align:center;
+					margin-bottom:10px;
+					color: #01b5ff;
+					font-size:24px;
+				}
+			.Employment_con_1_bottom{
+				width:252px;
+				height:60px;
+				background-color:#15c9cb;
+				color:white;
+				text-align:center;
+				line-height:60px;
+			}
+		
+/*实训环境
+*	surroundings_out  surroundings  surroundings_img 
+*/
+.surroundings_out{
+	margin:50px 0;
+	width:100%;
+	height:305px;
+}
+	.surroundings{
+		width:1200px;
+		margin:auto;
+	}
+		.surroundings_con_1{
+			float:left;
+			margin-right:10px;
+		}
+			.surroundings_con_1 img{
+				width: 290px;
+				height: 220px;
+			}
+			.surroundings_con_1 span{
+				width: 290px;
+				height: 80px;
+				display:block;
+				text-align:center;
+				line-height:80px;
+			}
+		
+/*合作企业
+*	enterprise_out   enterprise  enterprise_img  ul  li
+*/
+.enterprise_out{
+	margin:50px 0;
+	width:100%;
+	height:282px;
+}
+	.enterprise{
+		width:922px;
+		margin:auto;
+	}
+		.enterprise_img ul{
+			float:left;
+			margin-right:20px;
+		}
+			.enterprise_img li{
+				margin-bottom:20px;
+				border:2px solid #ccc;
+			}
+
+/*友情链接*/
+.out6{
+	width:100%;
+	height:80px;
+}
+	.link_A{
+		width:1200px;
+		margin:auto;
+	}
+		.link_A span{
+			float:left;
+			margin-left:20px;
+			margin-top:30px;
+			font-weight:bold;
+		}
+		.link_A a{
+			float:left;
+			margin-left:20px;
+			margin-top:30px;
+			text-decoration:none;
+			outline:none;
+			color:black;
+		}
+
+/*底部*/
+.out7{
+	width:100%;
+	height:372px;
+	background-color:#2691FD;
+	padding-top:80px;
+}
+	.bot_content1{
+		width:1200px;
+		height:292px;
+		margin:auto;
+	}
+		.bot_con_1{
+			width:326px;
+			height:212px;
+			color:white;
+			float:left;
+			border-left: 1px solid #48A3FF;
+			margin-right:20px;
+			margin-left:20px;
+		}
+			.bot_con_1_img{
+				width:200px;
+				height:212px;
+				padding-left:20px;
+				border-left: 1px solid #48A3FF;
+			}
+				.bot_con_1_img img{
+					width:164px;
+					height:164px;
+					display:block;
+					margin:right;
+				}
+					#phone{
+						font-size:34px;
+					}
+		.bot_con_2{
+			width:483px;
+			height:212px;
+			color:white;
+			float:left;
+			border-right: 1px solid #48A3FF;
+			margin-left:20px;
+		}
+			.bot_con_2 ul{
+				color:white;
+				float:left;
+				margin-right:30px;
+			}
+				.bot_con_2 li{
+					margin-bottom:5px;
+				}
+	.bot_content2{
+		height:80px;
+		box-shadow:0 5px 12px #1F81E0;
+	}
+		.bot_con2_con{
+			width:1200px;
+			margin:auto;
+			padding-left:720px;
+		}
+			.bot_con2_con span{
+				color:white;
+				float:left;
+				margin-left:40px;
+				margin:30px;
+			}
+			.bot_con2_con p{
+				color:blue;
+				float:left;
+				margin-left:40px;
+				margin:30px;
+			}
+
+
+	</style>
+ 
+</head>
+<body>
+	<div class="out">
+		<div class="navigation1">
+			<div class="nav_img1">
+				<img src="http://www.sxuek.com/statics/images/uek/new_logo.png"/>
+			</div>
+			<div class="nav_img2">
+				<img src="http://www.sxuek.com/statics/images/uek/shixun.png"/>
+				<img src="http://www.sxuek.com/statics/images/uek/rongyu.png"/>
+				<img src="http://www.sxuek.com/statics/images/uek/gaoxin.png"/>
+				<img src="http://www.sxuek.com/statics/images/uek/phone.png"/>
+			</div>
+			<div class="nav_text">
+				<a href="" alt="">首页</a>
+				<a href="" alt="">课程类别</a>
+				<a href="" alt="">就业展示</a>
+				<a href="" alt="">权威布道师</a>
+				<a href="" alt="">视频课程</a>
+				<a href="" alt="">新闻中心</a>
+				<a href="" alt="">关于我们</a>
+			</div>
+		</div>
+	</div>
+	<div class="carousel">
+		<div class="car_img">
+			<img src="http://www.sxuek.com/uploadfile/2018/0409/20180409103102204.jpg"/>
+		</div>
+	</div>
+	<div class="out2">
+		<div class="process">
+			<div class="pro_one">
+				<div class="pro_one_img">
+					<img src="http://www.sxuek.com/statics/images/uek/zero.png"/>
+				</div>	
+				<div class="pro_one_con">
+					<a href="">实训过程</a>
+					<p>三分钟视频了解</p>
+				</div>
+			</div>
+			
+			<div class="pro_one">
+				<div class="pro_one_img">
+					<img src="http://www.sxuek.com/statics/images/uek/st.png"/>
+				</div>	
+				<div class="pro_one_con">
+					<a href="">就业服务</a>
+					<p>三分钟视频了解</p>
+				</div>
+			</div>
+			
+			<div class="pro_one">
+				<div class="pro_one_img">
+					<img src="http://www.sxuek.com/statics/images/uek/shipin.png"/>
+				</div>	
+				<div class="pro_one_con">
+					<a href="">优逸视频</a>
+					<p>学员视频免费看</p>
+				</div>
+			</div>
+
+			<div class="pro_one">
+				<div class="pro_one_img">
+					<img src="http://www.sxuek.com/statics/images/uek/ty.png"/>
+				</div>	
+				<div class="pro_one_con">
+					<a href="">免费体验</a>
+					<p>入学享体验一次</p>
+				</div>
+			</div>
+
+			<div class="pro_one">
+				<div class="pro_one_img">
+					<img src="http://www.sxuek.com/statics/images/uek/kt.png"/>
+				</div>	
+				<div class="pro_one_con">
+					<a href="">大咖分享会</a>
+					<p>深入学习巩固知识</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<!-- 专注于大学生IT互联网就业实训-->
+	<div class="out3">
+		<div class="training">
+			<!-- 标题-->
+			<div class="tra_top">
+				<span>专注于大学生IT互联网就业实训</span>
+			</div>
+			<!--口号-->
+			<div class="tra_center">
+				<span>专注/极致/口碑 每时每刻都精彩纷呈</span>
+			</div>
+			
+			<div class="tra_bottom">
+				<!-- 新闻资讯-->
+				<div class="news">
+					<!--新闻导航2-->
+					<div class="nav2">
+						<div class="nav_2_img">
+							<img src="img/training/0.png"/>
+							<span>新闻资讯</span> 
+						</div>
+						<div class="nav_2_text">
+							<a href="" alt=""> 优逸新闻</a>
+							<a href="" alt=""> 班级活动</a> 
+							<a href="" alt=""> 媒体报道</a>
+							<a href="" alt=""> 技术交流</a>
+							<a id="nav2_more" href="" alt=""> MORE</a>
+						</div>
+						
+					</div> 
+					<!-- 内容-->
+					<div class="news_content">
+						<div class="con_img">
+							<img src="http://www.sxuek.com/statics/images/uek/loudao.jpg"/>
+						</div>
+						
+						<div class="con_one">
+							<div class="con_one_img">
+								<img src="http://www.sxuek.com/uploadfile/2019/0327/20190327104147805.jpg"/>
+							</div>
+							<div class="con_one_con">
+								<a href="" alt="">2019年度优逸客产学合作协同育人项目申报指南</a>
+								<p> 2019年度第一批优逸客科技有限公司教育部产学合作协同育人项目申报指南2019年，优逸客科技有限公司拟在跨境电子商务、互联网UI（User Inte </p>
+							</div>
+						</div>
+						
+						<div class="con_one">
+							<div class="con_one_img">
+								<img src="http://www.sxuek.com/uploadfile/2019/0105/20190105021855777.jpg"/>
+							</div>
+							<div class="con_one_con">
+								<a href="" alt="">2019，不惧改变，我们会更好！</a>
+								<p>  致优秀的你：2019新年伊始，首先向所有的朋友道一句：新年快乐！ </p>
+							</div>
+						</div>
+					
+					</div>		
+
+				</div>
+				
+				<!-- 优逸客知识库-->
+				<div class="knows">
+					<!--顶部-->
+					<div class="knows_top">
+						<div class="knows_img">
+							<img src="img/training/5.png">
+							<span>优逸知识库</span>
+						</div>
+						<div class="knows_right">
+							<span>MORE</span>
+						</div>
+					</div>
+					<!--内容-->
+					<div class="knows_con_one">
+						<div class="knows_con_one_top">
+							<a href="" alt="">互联网行业的盈利方式</a>
+						</div>
+						<p>就是让B出钱，让C出钱，让国家出钱。</p>
+					</div>
+					
+					<div class="knows_con_one">
+						<div class="knows_con_one_top">
+							<a href="" alt="">对操作系统的认识</a>
+						</div>
+						<p>一个操作系统应该具备哪些内容呢？</p>
+					</div>
+					
+					<div class="knows_con_one">
+						<div class="knows_con_one_top">
+							<a href="" alt="">UI设计的发展</a>
+						</div>
+						<p>设计是要产生价值的，而往往解决设计的问题是采用非设计的手段。。</p>
+					</div>
+					
+					<div class="knows_con_one">
+						<div class="knows_con_one_top">
+							<a href="" alt="">什么是用户体验？</a>
+						</div>
+						<p>说到用户体验，我想在做的各位都对用户体验有自己的理解，它是我们在做产品或者......</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- 科学实训 服务保障 实现你的梦想 -->
+	<div class="out4">
+		<div class="show1">
+			<!-- 标题-->
+			<div class="show1_title">
+				<span>科学实训 服务保障 实现你的梦想</span>
+			</div>
+			<!--口号-->
+			<div class="show1_slogan">
+				<span>责任/激情/梦想 我们的愿景是让每一位学员都能找到满意的工作</span>
+			</div>
+			
+		</div>
+		
+		<!--导航3-->
+		<div class="nav3">
+			<span id="nav3_A">热门课程</span>
+			<a href="" alt="">人工智能</a>
+			<a href="" alt="">大数据</a>
+			<a href="" alt="">云计算</a>
+		</div>
+		
+		<div class="show1_content">
+			<div class="show1_con_img">
+				<img src="http://www.sxuek.com/statics/images/uek/web.jpg"/>
+			</div>
+			<div class="show1_con_1">
+				<div class="show1_con_1_1">
+					<img src="img/show/1.png">
+					<a href="" alt="">课程大纲</a>
+				</div>
+				<div class="show1_con_1_1">
+					<img src="img/show/2.png">
+					<a href="" alt="">就业薪资</a>
+				</div>
+				<div class="show1_con_1_1">
+					<img src="img/show/3.png">
+					<a href="" alt="">职业测试</a>
+				</div>
+				<div class="show1_con_1_1">
+					<img src="img/show/4.png">
+					<a href="" alt="">试听课程</a>
+				</div>
+			</div>
+			<div class="show1_con_2">
+				<h6>近期开班时间</h6>
+				<h1>10</h1>
+				<h3>仅剩</h3><h2>/席</h2>
+				<h5>一截|止|报|名一</h5>
+				<p>2019-09-23</p>
+				<span>预约报名</span>
+			</div>
+		</div>
+		
+		<!--导航4-->
+		<div class="nav3">
+			<span id="nav3_A">设计类</span>
+			<a href="" alt="">UI/UX设计</a>
+			<a href="" alt="">室内设计</a>
+			<a href="" alt="">平面设计</a>
+		</div>
+		
+		<div class="show1_content">
+			<div class="show1_con_img">
+				<img src="img/show/1.jpg"/>
+			</div>
+			<div class="show1_con_1">
+				<div class="show1_con_1_1">
+					<img src="img/show/1.png">
+					<a href="" alt="">课程大纲</a>
+				</div>
+				<div class="show1_con_1_1">
+					<img src="img/show/2.png">
+					<a href="" alt="">就业薪资</a>
+				</div>
+				<div class="show1_con_1_1">
+					<img src="img/show/3.png">
+					<a href="" alt="">职业测试</a>
+				</div>
+				<div class="show1_con_1_1">
+					<img src="img/show/4.png">
+					<a href="" alt="">试听课程</a>
+				</div>
+			</div>
+			<div class="show1_con_2">
+				<h6>近期开班时间</h6>
+				<h1>10</h1>
+				<h3>仅剩</h3><h2>/席</h2>
+				<h5>一截|止|报|名一</h5>
+				<p>2019-09-23</p>
+				<span>预约报名</span>
+			</div>
+		</div>
+	<!--导航5-->
+		<div class="nav3">
+			<span id="nav3_A">开发类</span>
+			<a href="" alt="">Web全栈</a>
+		</div>
+		
+		<div class="show1_content">
+			<div class="show1_con_img">
+				<img src="img/show/1.jpg"/>
+			</div>
+			<div class="show1_con_1">
+				<div class="show1_con_1_1">
+					<img src="img/show/1.png">
+					<a href="" alt="">课程大纲</a>
+				</div>
+				<div class="show1_con_1_1">
+					<img src="img/show/2.png">
+					<a href="" alt="">就业薪资</a>
+				</div>
+				<div class="show1_con_1_1">
+					<img src="img/show/3.png">
+					<a href="" alt="">职业测试</a>
+				</div>
+				<div class="show1_con_1_1">
+					<img src="img/show/4.png">
+					<a href="" alt="">试听课程</a>
+				</div>
+			</div>
+			<div class="show1_con_2">
+				<h6>近期开班时间</h6>
+				<h1>10</h1>
+				<h3>仅剩</h3><h2>/席</h2>
+				<h5>一截|止|报|名一</h5>
+				<p>2019-09-23</p>
+				<span>预约报名</span>
+			</div>
+		</div>
+	<!-- 师资团队-->	
+	<div class="out5">
+		<div class="nav4">
+			<div class="nav4_left">
+				<span id="nav4_s1">师资团队</span><br>
+				<span id ="nav4_s2">TEACHER</span>
+				<span id="nav4_s3">TEAM</span>
+			</div>
+			<div class="nav4_right">
+				<a href="" alt>授课团队</a>
+				<span>/</span>
+				<a href="" alt>就业团队</a>
+				<span>/</span>
+				<a href="" alt>研发团队</a>
+				<span>/</span>
+				<a href="" alt>项目团队</a>
+			</div>
+		</div>
+	</div>
+	<div  class="team_out">
+		<div class="team">
+			<div class="team_con_1">
+				<div class="team_con_top">
+					<img src="img/team/1.jpg"/>
+					<span>严武军老师</span>
+				</div>
+				<div class="team_con_bottom">
+					<span> 从事IT互联网与移动互联网19年，曾深圳创业担任创明科技有限公司CEO，从事对欧美...</span>
+				</div>
+			</div>
+			
+			<div class="team_con_1">
+				<div class="team_con_top">
+					<img src="img/team/2.jpg"/>
+					<span>刘钊老师</span>
+				</div>
+				<div class="team_con_bottom">
+					<span> 从事设计工作8年，曾就职于北京和山西百度公司，曾参与多项APP界面设计，具有丰富...</span>
+				</div>
+			</div>
+			
+			<div class="team_con_1">
+				<div class="team_con_top">
+					<img src="img/team/4.jpg"/>
+					<span>白赟老师</span>
+				</div>
+				<div class="team_con_bottom">
+					<span> 6年UI设计工作经验，擅长项目开发交互设计，有丰富的设项目经验，曾为BORCHE注塑装...</span>
+				</div>
+			</div>
+			
+			<div class="team_con_1">
+				<div class="team_con_top">
+					<img src="img/team/3.jpg"/>
+					<span>张丹老师</span>
+				</div>
+				<div class="team_con_bottom">
+					<span> 4年设计工作经验，擅长logo设计、平面广告、UI设计，精通绘画并熟练掌握各类平面设...</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<!-- 就业展示-->		
+	<div class="out5">
+		<div class="nav4">
+			<div class="nav4_left">
+				<span id="nav4_s1">就业展示</span><br>
+				<span id ="nav4_s2">EMPLOYMENT</span>
+				<span id="nav4_s3">DISPLAY</span>
+			</div>
+			<div class="nav4_right">
+				<a href="" alt>2018年冬季就业成果</a>
+				<span>/</span>
+				<a href="" alt>2018年秋季就业成果</a>
+				<span>/</span>
+				<a href="" alt>2018年夏季就业成果</a>
+				<span>/</span>
+				<a href="" alt>2018年春季就业成果</a>		<!--Employment-->
+			</div>
+		</div>
+	</div>
+	<div  class="Employment_out">
+		<div class="Employment">
+			<div class="Employment_con_1">
+				<div class="Employment_con_1_top">
+					<img src="http://www.sxuek.com/uploadfile/2018/1129/20181129020339832.jpg"/>
+					<p>前端开发工程师</p>
+					<span>试用期10400转正130..</span>
+					<p>杭州**科技公司</p>
+				</div>
+				<div class="Employment_con_1_bottom">
+					<span>查看学员作品</span>
+				</div>
+			</div>
+			
+			<div class="Employment_con_1">
+				<div class="Employment_con_1_top">
+					<img src="http://www.sxuek.com/uploadfile/2018/1129/20181129015621884.jpg"/>
+					<p>前端开发工程师</p>
+					<span>试用期10400转正130..</span>
+					<p>杭州**科技公司</p>
+				</div>
+				<div class="Employment_con_1_bottom">
+					<span>查看学员作品</span>
+				</div>
+			</div>
+			
+			<div class="Employment_con_1">
+				<div class="Employment_con_1_top">
+					<img src="http://www.sxuek.com/uploadfile/2018/1129/20181129014915110.jpg"/>
+					<p>前端开发工程师</p>
+					<span>试用期10400转正130..</span>
+					<p>杭州**科技公司</p>
+				</div>
+				<div class="Employment_con_1_bottom">
+					<span>查看学员作品</span>
+				</div>
+			</div>
+			
+			<div class="Employment_con_1">
+				<div class="Employment_con_1_top">
+					<img src="http://www.sxuek.com/uploadfile/2018/1129/20181129120132130.jpg"/>
+					<p>前端开发工程师</p>
+					<span>试用期10400转正130..</span>
+					<p>杭州**科技公司</p>
+				</div>
+				<div class="Employment_con_1_bottom">
+					<span>查看学员作品</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 优逸视频-->
+	<div class="out5">
+		<div class="nav4">
+			<div class="nav4_left">
+				<span id="nav4_s1">优逸视频</span><br>
+				<span id ="nav4_s2">VIDEO</span>
+				<span id="nav4_s3">APPRECIATION</span>
+			</div>
+			<div class="nav4_right">
+				<a href="" alt>UI视频</a>
+				<span>/</span>
+				<a href="" alt>前端开发</a>
+				<span>/</span>
+				<a href="" alt>技术交流会</a>
+				<span>/</span>
+				<a href="" alt>活动视频</a>
+			</div>
+		</div>
+	</div>
+	<div  class="video">
+		<div class="one">
+			<div class="img">
+				<img src="http://www.sxuek.com/uploadfile/2017/1106/20171106045941450.jpg"/>
+			</div>
+			<div class="bom">
+				<div id="chu">
+					<span>初</span>
+				</div>
+				<div id="txt">
+					第十二节：实操示范（1）
+				</div>
+				<div id="man">
+					155人正在学习
+				</div>
+			</div>
+		</div>
+		
+		<div class="one">
+			<div class="img">
+				<img src="http://www.sxuek.com/uploadfile/2017/1011/20171011101359201.jpg"/>
+			</div>
+			<div class="bom">
+				<div id="chu">
+					<span>初</span>
+				</div>
+				<div id="txt">
+					第十二节：实操示范（2）
+				</div>
+				<div id="man">
+					1343人正在学习
+				</div>
+			</div>
+		</div>
+		
+		<div class="one">
+			<div class="img">
+				<img src="http://www.sxuek.com/uploadfile/2017/1011/20171011100754763.jpg"/>
+			</div>
+			<div class="bom">
+				<div id="chu">
+					<span>初</span>
+				</div>
+				<div id="txt">
+					第十二节：实操示范（3）
+				</div>
+				<div id="man">
+					1343人正在学习
+				</div>
+			</div>
+		</div>
+		
+		<div class="one">
+			<div class="img">
+				<img src="http://www.sxuek.com/uploadfile/2017/1011/20171011095908249.jpg"/>
+			</div>
+			<div class="bom">
+				<div id="chu">
+					<span>初</span>
+				</div>
+				<div id="txt">
+					第十二节：实操示范（4）
+				</div>
+				<div id="man">
+					13423人正在学习
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	
+	
+	<!-- 实训环境-->
+	<div class="out5">
+		<div class="nav4">
+			<div class="nav4_left">
+				<span id="nav4_s1">实训环境</span><br>
+				<span id ="nav4_s2">TRAINING</span>
+				<span id="nav4_s3">ENVIRONMENT</span>
+			</div>
+			<div class="nav4_right">
+				<a href="" alt>公司环境</a>
+				<span>/</span>
+				<a href="" alt>课堂缩影</a>
+				<span>/</span>
+				<a href="" alt>生活服务</a>
+				<span>/</span>
+				<a href="" alt>权威认证</a>
+			</div>
+		</div>
+	</div>
+	
+	<div  class="surroundings_out">
+		<div class="surroundings">
+			<div class="surroundings_con_1">
+				<img src="http://www.sxuek.com/uploadfile/2017/0425/20170425102309459.png"/>
+				<span>前台一角</span>
+			</div>
+			<div class="surroundings_con_1">
+				<img src="http://www.sxuek.com/uploadfile/2017/0503/20170503092605544.jpg"/>
+				<span>教学区域</span>
+			</div>
+			<div class="surroundings_con_1">
+				<img src="http://www.sxuek.com/uploadfile/2017/0503/20170503092903241.jpg"/>
+				<span>茶水休息室</span>
+			</div>
+			<div class="surroundings_con_1">
+				<img src="http://www.sxuek.com/uploadfile/2017/0503/20170503092751436.jpg"/>
+				<span>大会议室</span>
+			</div>
+			
+		</div>
+	</div>
+	
+	<!-- 合作企业-->
+	<div class="out5">
+		<div class="nav4">
+			<div class="nav4_left">
+				<span id="nav4_s1">合作企业</span><br>
+				<span id ="nav4_s2"> COOPERATIVE </span>
+				<span id="nav4_s3">ENTERPRISE</span>
+			</div>
+			<div class="nav4_right">
+				<a href="" alt>合作企业</a>
+				<span>/</span>
+				<a href="" alt>合作院校</a>
+				<span>/</span>
+				<a href="" alt>权威报道</a>
+			</div>
+		</div>
+	</div>
+	
+	<div  class="enterprise_out">
+		<div class="enterprise">
+			<div class="enterprise_img">
+				<ul>
+					<li><img src="http://www.sxuek.com/uploadfile/2017/1215/20171215055019749.jpg"/></li>
+					<li><img src="http://www.sxuek.com/uploadfile/2017/1215/20171215055040576.jpg"/></li>
+					<li><img src="http://www.sxuek.com/uploadfile/2017/1215/20171215055203610.jpg"/></li>
+				</ul>
+				<ul>
+					<li><img src="http://www.sxuek.com/uploadfile/2017/1215/20171215055107550.jpg"/></li>
+					<li><img src="http://www.sxuek.com/uploadfile/2017/1215/20171215055132800.jpg"/></li>
+					<li><img src="http://www.sxuek.com/uploadfile/2016/1125/20161125064047375.png"/></li>
+				</ul>
+				<ul>
+					<li><img src="http://www.sxuek.com/uploadfile/2017/0313/20170313043021865.jpg"/></li>
+					<li><img src="http://www.sxuek.com/uploadfile/2017/0313/20170313042909478.jpg"/></li>
+					<li><img src="http://www.sxuek.com/uploadfile/2017/0313/20170313043448390.jpg"/></li>
+				</ul>
+				<ul>
+					<li><img src="http://www.sxuek.com/uploadfile/2017/0313/20170313043719233.jpg"/></li>
+					<li><img src="http://www.sxuek.com/uploadfile/2017/0527/20170527025416185.jpg"/></li>
+					<li><img src="http://www.sxuek.com/uploadfile/2017/0313/20170313044010460.jpg"/></li>
+				</ul>
+				<ul>
+					<li><img src="http://www.sxuek.com/uploadfile/2017/0313/20170313044133553.jpg"/></li>
+					<li><img src="http://www.sxuek.com/uploadfile/2017/0313/20170313044807808.jpg"/></li>
+					<li><img src="http://www.sxuek.com/uploadfile/2017/0313/20170313045038366.jpg"/></li>
+				</ul>
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	<!-- 友情链接-->
+	<div class="out6">
+		<div class="link_A">
+			<span>友情链接:</span>
+			<a href="" alt="">西安优逸客</a>
+		</div>
+	</div>
+	
+	
+	<!--底部-->
+	<div class="out7">
+		<div class="bot_content1">
+			<div class="bot_con_1">				
+				<span>CONTACT US</span><br>
+				<span>联系我们</span><br><br>
+				<span>学府街基地：</span><br>
+				<span>山西省太原市学府街平阳路口凯通大厦二层</span><br><br>
+				<span>府西街基地：</span><br>
+				<span>太原市杏花岭区府西街195号</span><br><br>
+				<span>全国免费咨询热线：400-969-7660</span><br><br><br>
+				<div class="bot_con_1_img">
+					<span id="phone">400-969-7660</span>
+					<img src="http://www.sxuek.com/statics/images/uek/images/xjn_img/xjn-ewm.jpg">
+				</div>
+			</div>
+			
+			<div class="bot_con_2">
+				<ul>
+					<li> 课程体系</li><br><br>
+					<li> UI/UX设计</li>
+					<li> Web全栈开发</li>
+					<li> Python人工智能</li>
+					<li> Java大数据课程</li>
+					<li> Linux云计算课程</li>
+				</ul>
+				<ul>
+					<li> 就业体系</li><br><br>
+					<li> 就业前景</li>
+					<li> 就业报告</li>
+					<li> 就业成果</li>
+					<li> 版权声明</li>
+				</ul>
+				<ul>
+					<li> 服务专区</li><br><br>
+					<li> 我要报名</li>
+					<li> 在线课程</li>
+					<li> 免费体检</li>
+					<li> 网站地图</li>
+				</ul>
+				<ul>
+					<li> 关于优逸客</li><br><br>
+					<li> 优逸客简介</li>
+					<li> 校区查询</li>
+					<li> 官方QQ群</li>
+					<li> 联系我们</li>
+				</ul>			
+			</div>
+		</div>
+		
+		<div class="bot_content2">
+			<div class="bot_con2_con">
+			 <span>Copyright 2013-2019</span> 
+			 <p>晋ICP备13006051号-2 </p>
+			 <span>版权所有山西优逸客科技有限公司 </span> 
+			 </div>
+		</div>
+	</div>
+	
+	<div class="out8">
+		<div class="bott_content">
+			<span>   </span>
+			<span>   </span>
+			<a href="" alt=""></a>
+			<span>   </span>
+		</div>
+	</div>
+
+</body>
+</html>
