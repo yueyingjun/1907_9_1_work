@@ -1,0 +1,66 @@
+/* 合作企业 */
+body{
+	maring:0;padding:0;
+	}	
+	div.outd{
+		width:100%;height:60px;
+	}	
+	.outd>div{
+		width:1140px;height:100%;
+		border-left:5px solid blue;
+		border-right:5px solid blue;
+		margin:auto;
+	}
+	.leftd>ul{
+		maring:0;padding:0;
+		list-style:none;
+		margin-left:20px;
+		margin-top:-4px;
+		float:left;
+	}
+	li.overd{
+		font-size:35px;
+	}
+	li.underd{
+		font-weight:bold;
+	}
+	.rightd{
+		position:relative;
+		top:41px;
+		color:#2691FD;
+		font-weight:normal;
+	}
+	.rightdd{
+		position:relative;
+		right:-700px;top:16px;
+	}
+	.rightdd a:hover{
+		color:blue;
+		text-decoration:overline;
+	}
+	.txt6{
+		width:922px;height:279px;
+
+		margin:auto;
+		margin-top:70px;
+		padding-left:15px;
+		box-sizing:border-box;
+		overflow:hidden;
+		margin-bottom:60px;
+	}
+	.txt6>img{
+		margin-right:33px;
+		margin-bottom:33px;
+		width:147px;height:66px;
+	}
+	.link1{
+		width:1000px;height:60px;
+		margin:auto;
+	}
+	.l1{
+		font-weight:bold;
+	}
+	.l2{
+		position:relative;
+		right:-10px;
+	}
