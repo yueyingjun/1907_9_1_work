@@ -1,0 +1,386 @@
+.daout{
+    height: 60px;
+    width: 100%;
+    margin: auto;
+    background-image: url(http://sxuek.com/statics/images/uek/images/szh_images/lyn-jianban.jpg);
+}
+.out{
+    height: 60px;
+    width: 80%;
+    margin: auto;
+    background: #fff;
+}
+.left{
+    border-left: dodgerblue solid 5px;
+    float: left;
+    box-sizing: border-box;
+}
+.a1{
+    font-size: 30px;
+
+    margin-left:10px;
+
+}
+.a2{
+    font-weight: bold;
+    margin-left:10px;
+    float: left;
+    margin-right: 10px;
+}
+.a3{
+    color: #2691fd;
+    float: left;
+
+}
+.right{
+    margin-top: 0px;
+    float: right;
+    line-height: 60px;
+
+    padding-right: 20px;
+    border-right: #2691fd solid 5px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.right span{
+    margin: 0 10px;
+}
+a:hover{
+    color: #2691fd;
+    border-top: #2691fd solid 3px;
+}
+
+
+
+
+.shizituandui{
+    width: 1200px;
+    height: 460px;
+    margin-left: 158px;
+    margin-top: 50px;
+
+}
+.jieshao{
+    float:left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.content{
+    width: 1112px;height: 270px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 200px;
+}
+
+
+.list1{
+    float: left;
+    width: 250px;height: 100%;
+    list-style: none;
+    margin: auto;
+    margin-left: 20px;
+}
+.content-top1{
+    width: 100%;height: 350px;
+    background-image: url("http://www.sxuek.com/uploadfile/2017/0804/20170804110256515.jpg");
+    background-size: 100% 100%;
+
+}
+.content-top12{
+    width: 100%;height: 350px;
+
+    background-image: url("http://www.sxuek.com/uploadfile/2017/0804/20170804024917226.jpg");
+    background-size: 100% 100%;
+
+}
+.content-top13{
+    width: 100%;height: 350px;
+
+    background-image: url("http://www.sxuek.com/uploadfile/2017/0804/20170804031847785.jpg");
+    background-size: 100% 100%;
+
+}
+.content-top14{
+    width: 100%;height: 350px;
+    background-image: url("http://www.sxuek.com/uploadfile/2017/0804/20170804034723826.jpg");
+    background-size: 100% 100%;
+
+}
+
+.content-bottom1{
+    width: 100%;height: 90px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.content-bottom1 p{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.content-top2{
+    width: 100%;height: 350px;
+    border: 1px solid silver;
+    background-color: transparent;
+    background-size: 100% 100%;
+
+}
+.stu1{
+    width:150px;height: 120px;
+    margin: auto;
+    margin-top: 40px;
+    background-image: url("http://www.sxuek.com/uploadfile/2018/1129/20181129020339832.jpg");
+    display: block;
+    border-radius: 100%;
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+}
+.stu2{
+    width:150px;height: 120px;
+    margin: auto;
+    margin-top: 40px;
+    background-image: url("http://www.sxuek.com/uploadfile/2018/1129/20181129015621884.jpg");
+    display: block;
+    border-radius: 100%;
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+}
+.stu3{
+    width:150px;height: 120px;
+    margin: auto;
+    margin-top: 40px;
+    background-image: url("http://www.sxuek.com/uploadfile/2018/1129/20181129014915110.jpg");
+    display: block;
+    border-radius: 100%;
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+}
+.stu4{
+    width:150px;height: 120px;
+    margin: auto;
+    margin-top: 40px;
+    background-image: url("http://www.sxuek.com/uploadfile/2018/1129/20181129120132130.jpg");
+    display: block;
+    border-radius: 100%;
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+}
+.work{
+    line-height: 30px;
+    text-align: center;
+}
+
+.salary{
+    font-size: 23px;
+    color: #4a78c2;
+}
+
+.content-bottom21{
+    width: 252px;height: 40px;
+    background-color: cornflowerblue;
+    margin-top: -40px;
+
+}
+.content-bottom22{
+    width: 252px;height: 40px;
+    background-color:orange;
+    margin-top: -40px;
+}
+.content-bottom23{
+    width: 252px;height: 40px;
+    background-color:purple;
+    margin-top: -40px;
+}
+.content-bottom24{
+    width:252px;height: 40px;
+    background-color:crimson;
+    margin-top: -40px;
+
+}
+.zp{
+    font-size: 20px;
+    color: white;
+    margin-left: 65px;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+.dout{
+    height: 325px;
+    width: 100%;
+    margin-top: 100px;
+}
+.photo11{
+    height: 325px;
+    width: 85%;
+    margin-left: 205px;
+
+}
+.i1{
+    float: left;
+    margin: 0 5px;
+    border: #bebdff solid 1px;
+    position:relative;
+}
+.gif{
+    height: 30px;
+    width: 107px;
+    background: #2691fd;
+    position:absolute;
+    margin-top: -34px;
+    margin-left: 161px;
+
+}
+
+.chu{
+    height: 20px;
+    width: 20px;
+    background: #999;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+    font-size: 14px;
+    float: left;
+    margin-right: 10px;
+}
+.wenzi{
+    margin-top: 15px;
+}
+.kuang{
+    height: 100px;
+    border: #bebbff solid 1px;
+    margin-top: -5px;
+}
+.bottom{
+    margin-left: 13px;
+    margin-top: 15px;
+    color: #999999;
+}
+
+
+.huanjing{
+    width: 1200px;
+    height: 330px;
+    margin-left: 158px;
+    margin-top: 50px;
+}
+.tutu{
+    float: left;
+    margin-left: 8px;
+}
+
+
+.tuzi1{
+    float: left;
+    line-height: 100px;
+    margin-left: 125px;
+}
+.tuzi2{
+    float: left;
+    line-height: 100px;
+    margin-left: 230px;
+}
+.tuzi3{
+    float: left;
+    line-height: 100px;
+    margin-left: 230px;
+}
+.tuzi4{
+    float: left;
+    line-height: 100px;
+    margin-left: 230px;
+}
+
+
+.hezuo{
+    width: 922px;
+    height: 279px;
+
+    margin-left: 300px;
+    margin-top: 50px;
+}
+ul,li{
+    padding: 0;
+    margin: 0;
+}
+.hezuotu{
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    margin-left: 20px;
+
+}
+.youqing{
+    width: 1000px;
+    height: 80px;
+    margin-left: 250px;
+
+}
+.xia{
+    width: 1519px;
+    height: 322px;
+    background: #2691fd;
+}
+
+.xia1{
+    color: #ffffff;
+    margin-left: 200px;
+    padding-top: 50px;
+    float: left;
+}
+.xia2{
+    color: #ffffff;
+    margin-left: 80px;
+    padding-top: 50px;
+    float: left;
+}
+.dianhua{
+    width: 192px;
+    height: 212px;
+    float: right;
+    padding-top: 60px;
+    margin-right: 80px;
+}
+.xiaxia{
+    width: 1519px;
+    height: 80px;
+    background: #2691fd;
+    text-align: center;
+    color: white;
+    line-height: 80px;
+    box-shadow: 0px -6px 6px #6170ff;
+}
