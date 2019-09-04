@@ -1,0 +1,195 @@
+/* 第一行字体 */
+.font-style1{
+	width:1200px;height:90px;
+	margin:auto;
+	text-align:center;
+	font-size:36px;
+	padding-top:30px;
+	box-sizing:border-box;
+	color:#2691fd;
+	border-bottom:1px solid #2691fd;
+}
+.border1{
+	width:1200px;height:10px;
+	margin:auto;
+}
+.idea1{
+	text-align:center;
+}
+.news{
+	width:1200px;height:608px;
+	margin:auto;
+	margin-top:50px;
+}
+.left111{
+	width:799px;height:100%;
+	border:1px solid black;
+	overflow:hidden;
+}
+.cutter1{
+	width:750px;height:100%;
+	margin:auto;
+}
+.part1{
+	width:100%;height:60px;
+	border-bottom:1px solid blue;
+	float:left;
+	margin-top:17px;
+}
+.type{
+	font-size:32px;
+	margin-left:10px;
+	float:left;
+	margin-top:-8px;
+}
+.part1>a{
+	margin-left:40px;
+	position:relative;
+	left:40px;top:13px;
+}
+.d{
+	color:#ffa800;
+}
+.part2{
+	width:100%;height:177px;
+	border:1px solid black;
+	background-image:url(http://www.sxuek.com/statics/images/uek/loudao.jpg);
+	position:relative;
+	top:57px;
+}
+.part3{
+	weith:100%;height:172px;
+	border:1px solid BLACK;
+	position:relative;
+	top:90px;
+	
+}
+.part3>img{
+	width:132px;height:99px;
+	margin-top:30px;
+}
+.title1{
+	margin-left:30px;
+	margin-top:40px;
+	font-size:20px;
+	margin-bottom:15px;
+}
+.text1{
+	margin-left:10px;
+}
+.part4{
+	weith:100%;height:172px;
+	border:1px solid BLACK;
+	position:relative;
+	top:90px;
+}
+.part4>img{
+	width:132px;height:99px;
+	margin-top:30px;
+}
+.title2{
+	margin-left:30px;
+	margin-top:40px;
+	font-size:20px;
+	margin-bottom:15px;
+}
+.text2{
+	margin-left:10px;
+}
+
+.right1{
+	width:399px;height:100%;
+	border:1px solid black;
+	float:left;
+	position:relative;
+	left:800px;top:-610px;
+}
+.cutter3{
+	width:370px;height:100%;
+	margin:auto;
+}
+.part11{
+	width:100%;height:48px;
+	border-bottom:1px solid blue;
+}
+
+.part11>img{
+	position:relative;
+	left:10px;
+	top:10px;
+}
+.tit1{
+	margin-left:60px;
+	margin-top:10px;
+	font-size:32px;
+}
+.txt1{
+	position:relative;
+	left:320px;
+	bottom:20px;
+	color:#ffa800;
+}
+.part22{
+	width:100%;height:137px;
+}
+.titleA{
+	position:relative;
+	left:10px;
+	top:20px;
+	font-weight:bold;
+}
+.textA{
+	position:relative;
+	left:10px;
+	top:40px;
+}
+.part33{
+	width:100%;height:137px;
+}
+.titleB{
+	position:relative;
+	left:10px;
+	top:20px;
+	font-weight:bold;
+}
+.textB{
+	position:relative;
+	left:10px;
+	top:40px;
+}
+
+.part44{
+	width:100%;height:137px;
+}
+.titleC{
+	position:relative;
+	left:10px;
+	top:20px;
+	font-weight:bold;
+}
+.textC{
+	position:relative;
+	left:10px;
+	top:40px;
+}
+.part55{
+	width:100%;height:137px;
+}
+.titleD{
+	position:relative;
+	left:10px;
+	top:20px;
+	font-weight:bold;
+}
+.textD{
+	position:relative;
+	left:10px;
+	top:40px;
+}
+
+
+
+
+
+
+
