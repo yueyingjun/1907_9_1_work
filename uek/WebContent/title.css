@@ -1,0 +1,77 @@
+/*
+	网页最上方
+	*/
+.title{
+	width:100%;height:110px;
+}
+.cutter{
+	font-family:苹方, "Microsoft Yahei", 黑体, sans-serif !important;
+	width:1200px;height:100%;
+	margin:auto;
+}
+.logo{
+	float:left;
+	width:80px; height:72px;
+	margin-top:20px;
+}
+.left{
+	float:left;
+	margin-top:30px;
+	font-size:25px;
+
+}
+.left-bottom{
+	position:relative;
+	left:-123px;top:65px;
+	font-size:14px;
+}
+.p{
+	float:right;
+	margin-right:-50px;
+}
+.p>img{
+	margin-right:50px;
+}
+.lan1{
+	float:left;
+	width:800px;height:16px;
+	position:relative;
+	left:330px;
+	margin-top:20px;
+	font-weight:bold;
+
+}
+.lan1>a{
+	margin-right:30px;
+}
+.lan1 a:hover{
+	color:blue;
+	
+}
+.picture{
+	width:1510px;height:500px;	
+	border:1px solid red;
+	background-image:url("http://www.sxuek.com/uploadfile/2017/1109/20171109062611464.jpg");
+	background-position:-200px;
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
